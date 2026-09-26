@@ -1,0 +1,1001 @@
+event_id,event_timestamp,host_name,device_type,event_type,severity,source_ip,message
+1,2026-05-13 08:02:00,ROUTER-01,Network Device,Memory Monitoring,ERROR,192.168.10.119,Memory utilization normal
+2,2026-04-18 09:51:00,APP-SERVER-02,Linux Server,CPU Monitoring,INFO,192.168.2.81,CPU utilization normal
+3,2026-08-30 23:18:00,WEB-SERVER-01,Windows Server,Authentication,WARNING,192.168.1.74,User account locked
+4,2026-04-18 07:04:00,DB-SERVER-02,Database Server,CPU Monitoring,ERROR,192.168.3.99,CPU utilization exceeded threshold
+5,2026-01-09 02:27:00,APP-SERVER-02,Linux Server,Application,INFO,192.168.6.229,Database connection timeout
+6,2026-01-07 09:58:00,DB-SERVER-01,Database Server,CPU Monitoring,WARNING,192.168.1.19,High CPU utilization detected
+7,2026-08-11 17:37:00,WEB-SERVER-01,Windows Server,System,CRITICAL,192.168.6.164,Disk space running low
+8,2026-01-28 18:18:00,APP-SERVER-01,Linux Server,CPU Monitoring,ERROR,192.168.4.46,CPU utilization exceeded threshold
+9,2026-03-12 10:02:00,DB-SERVER-02,Database Server,Network,INFO,192.168.10.185,Packet loss detected
+10,2026-07-10 13:11:00,SWITCH-01,Network Device,Memory Monitoring,INFO,192.168.10.184,Memory utilization exceeded threshold
+11,2026-06-02 02:31:00,WEB-SERVER-01,Windows Server,System,INFO,192.168.7.70,Disk space running low
+12,2026-03-18 23:36:00,DB-SERVER-01,Database Server,CPU Monitoring,INFO,192.168.1.58,CPU utilization exceeded threshold
+13,2026-07-19 19:20:00,DB-SERVER-02,Database Server,Memory Monitoring,WARNING,192.168.1.162,Memory utilization normal
+14,2026-05-25 10:13:00,SWITCH-01,Network Device,Application,WARNING,192.168.1.215,Database connection timeout
+15,2026-03-27 11:24:00,DB-SERVER-02,Database Server,Authentication,INFO,192.168.1.177,Successful user login
+16,2026-04-21 01:46:00,WEB-SERVER-02,Windows Server,Application,WARNING,192.168.4.171,Application error occurred
+17,2026-04-13 17:50:00,APP-SERVER-01,Linux Server,Authentication,INFO,192.168.5.45,Password authentication failed
+18,2026-03-11 22:52:00,DB-SERVER-01,Database Server,CPU Monitoring,INFO,192.168.2.86,High CPU utilization detected
+19,2026-04-05 02:23:00,DB-SERVER-01,Database Server,Memory Monitoring,ERROR,192.168.6.183,Memory utilization exceeded threshold
+20,2026-03-26 16:06:00,WEB-SERVER-01,Windows Server,CPU Monitoring,INFO,192.168.5.59,CPU utilization normal
+21,2026-05-25 04:35:00,SWITCH-01,Network Device,CPU Monitoring,ERROR,192.168.2.22,CPU utilization exceeded threshold
+22,2026-08-05 13:22:00,APP-SERVER-02,Linux Server,Authentication,INFO,192.168.4.210,Failed login attempt
+23,2026-08-16 14:59:00,APP-SERVER-01,Linux Server,System,INFO,192.168.9.232,System service restarted
+24,2026-06-21 20:57:00,SWITCH-01,Network Device,Application,INFO,192.168.2.100,Database connection timeout
+25,2026-03-28 20:11:00,WEB-SERVER-01,Windows Server,Memory Monitoring,INFO,192.168.7.198,Memory utilization exceeded threshold
+26,2026-04-11 14:56:00,WEB-SERVER-02,Windows Server,CPU Monitoring,WARNING,192.168.3.120,CPU utilization exceeded threshold
+27,2026-04-24 22:21:00,WEB-SERVER-01,Windows Server,Application,WARNING,192.168.1.46,Service response time exceeded threshold
+28,2026-05-17 16:14:00,ROUTER-01,Network Device,Network,ERROR,192.168.8.23,Network connectivity restored
+29,2026-08-31 19:52:00,SWITCH-01,Network Device,Application,ERROR,192.168.7.211,Application error occurred
+30,2026-05-21 06:04:00,WEB-SERVER-02,Windows Server,Memory Monitoring,INFO,192.168.7.237,Memory utilization exceeded threshold
+31,2026-01-23 19:24:00,APP-SERVER-01,Linux Server,Application,CRITICAL,192.168.5.185,Service response time exceeded threshold
+32,2026-07-27 08:42:00,ROUTER-01,Network Device,Network,WARNING,192.168.4.164,Packet loss detected
+33,2026-05-15 07:30:00,WEB-SERVER-02,Windows Server,System,CRITICAL,192.168.2.90,System configuration changed
+34,2026-05-17 17:34:00,WEB-SERVER-01,Windows Server,CPU Monitoring,WARNING,192.168.8.126,High CPU utilization detected
+35,2026-01-26 04:46:00,DB-SERVER-01,Database Server,System,WARNING,192.168.2.6,System startup completed
+36,2026-01-08 04:14:00,APP-SERVER-01,Linux Server,System,WARNING,192.168.5.157,System startup completed
+37,2026-05-08 15:08:00,DB-SERVER-02,Database Server,Network,INFO,192.168.10.241,Network connection established
+38,2026-01-04 03:22:00,DB-SERVER-02,Database Server,Memory Monitoring,INFO,192.168.3.66,Memory utilization exceeded threshold
+39,2026-02-18 06:51:00,APP-SERVER-02,Linux Server,CPU Monitoring,INFO,192.168.4.55,CPU utilization exceeded threshold
+40,2026-05-27 02:21:00,DB-SERVER-01,Database Server,CPU Monitoring,INFO,192.168.3.89,CPU utilization normal
+41,2026-04-21 23:46:00,WEB-SERVER-02,Windows Server,Application,INFO,192.168.5.125,Application error occurred
+42,2026-03-08 09:55:00,APP-SERVER-02,Linux Server,Application,INFO,192.168.10.203,Application error occurred
+43,2026-08-04 01:03:00,WEB-SERVER-02,Windows Server,Network,WARNING,192.168.2.226,Network connectivity restored
+44,2026-01-04 07:15:00,DB-SERVER-01,Database Server,System,WARNING,192.168.1.130,System service restarted
+45,2026-01-23 22:23:00,WEB-SERVER-01,Windows Server,CPU Monitoring,INFO,192.168.10.219,CPU utilization exceeded threshold
+46,2026-07-22 08:41:00,ROUTER-01,Network Device,System,WARNING,192.168.1.101,System service restarted
+47,2026-06-28 22:06:00,DB-SERVER-01,Database Server,Memory Monitoring,INFO,192.168.7.77,Memory utilization exceeded threshold
+48,2026-01-05 03:43:00,WEB-SERVER-01,Windows Server,Application,WARNING,192.168.3.251,Application started successfully
+49,2026-03-13 01:23:00,APP-SERVER-01,Linux Server,Memory Monitoring,INFO,192.168.2.126,Memory utilization exceeded threshold
+50,2026-01-13 08:07:00,ROUTER-01,Network Device,Network,INFO,192.168.6.218,Network connectivity restored
+51,2026-02-25 17:06:00,SWITCH-01,Network Device,Authentication,CRITICAL,192.168.6.96,Password authentication failed
+52,2026-04-30 01:47:00,WEB-SERVER-02,Windows Server,Memory Monitoring,ERROR,192.168.2.232,Memory utilization exceeded threshold
+53,2026-03-19 12:33:00,SWITCH-01,Network Device,Application,INFO,192.168.5.214,Database connection timeout
+54,2026-08-05 04:19:00,ROUTER-01,Network Device,System,WARNING,192.168.10.120,System startup completed
+55,2026-08-16 17:12:00,APP-SERVER-01,Linux Server,Authentication,INFO,192.168.10.78,Successful user login
+56,2026-08-21 05:09:00,APP-SERVER-01,Linux Server,System,INFO,192.168.4.227,System configuration changed
+57,2026-05-20 13:52:00,ROUTER-01,Network Device,Application,INFO,192.168.10.163,Application error occurred
+58,2026-01-24 10:53:00,DB-SERVER-01,Database Server,System,INFO,192.168.4.218,Disk space running low
+59,2026-06-27 16:42:00,DB-SERVER-01,Database Server,Application,INFO,192.168.7.89,Application error occurred
+60,2026-06-24 23:52:00,DB-SERVER-01,Database Server,Memory Monitoring,INFO,192.168.10.136,Memory utilization exceeded threshold
+61,2026-02-04 12:16:00,DB-SERVER-02,Database Server,Application,WARNING,192.168.8.207,Service response time exceeded threshold
+62,2026-03-28 18:00:00,WEB-SERVER-02,Windows Server,CPU Monitoring,CRITICAL,192.168.10.243,CPU utilization exceeded threshold
+63,2026-04-10 19:24:00,DB-SERVER-02,Database Server,Network,WARNING,192.168.5.150,Network connection established
+64,2026-06-30 05:04:00,APP-SERVER-01,Linux Server,System,INFO,192.168.2.123,System startup completed
+65,2026-08-04 07:08:00,APP-SERVER-02,Linux Server,System,INFO,192.168.7.253,System configuration changed
+66,2026-06-17 10:21:00,APP-SERVER-02,Linux Server,Network,INFO,192.168.9.102,Packet loss detected
+67,2026-08-05 13:27:00,ROUTER-01,Network Device,CPU Monitoring,INFO,192.168.8.220,CPU utilization normal
+68,2026-06-18 15:30:00,WEB-SERVER-01,Windows Server,CPU Monitoring,ERROR,192.168.6.26,CPU utilization exceeded threshold
+69,2026-01-21 23:09:00,WEB-SERVER-02,Windows Server,Application,WARNING,192.168.1.185,Application started successfully
+70,2026-01-14 12:15:00,SWITCH-01,Network Device,Network,WARNING,192.168.4.18,Packet loss detected
+71,2026-02-17 23:45:00,WEB-SERVER-01,Windows Server,Application,INFO,192.168.3.93,Application started successfully
+72,2026-05-14 03:59:00,DB-SERVER-01,Database Server,Memory Monitoring,WARNING,192.168.2.184,High memory utilization detected
+73,2026-03-16 06:43:00,WEB-SERVER-01,Windows Server,Network,ERROR,192.168.8.138,Network connectivity restored
+74,2026-04-08 02:13:00,DB-SERVER-02,Database Server,Application,INFO,192.168.6.138,Service response time exceeded threshold
+75,2026-04-16 14:36:00,WEB-SERVER-01,Windows Server,Network,INFO,192.168.2.83,Network connection established
+76,2026-04-30 18:02:00,WEB-SERVER-02,Windows Server,System,INFO,192.168.4.35,System startup completed
+77,2026-04-22 07:32:00,DB-SERVER-02,Database Server,Authentication,INFO,192.168.3.67,User account locked
+78,2026-04-24 00:38:00,DB-SERVER-02,Database Server,CPU Monitoring,INFO,192.168.1.146,CPU utilization normal
+79,2026-07-02 12:24:00,ROUTER-01,Network Device,System,WARNING,192.168.3.211,System startup completed
+80,2026-03-06 03:20:00,APP-SERVER-01,Linux Server,Application,WARNING,192.168.2.134,Application error occurred
+81,2026-06-19 21:45:00,APP-SERVER-01,Linux Server,System,INFO,192.168.1.138,System service restarted
+82,2026-08-19 20:30:00,DB-SERVER-01,Database Server,System,INFO,192.168.9.57,System service restarted
+83,2026-05-18 08:40:00,SWITCH-01,Network Device,Memory Monitoring,INFO,192.168.5.7,Memory utilization normal
+84,2026-02-06 05:20:00,DB-SERVER-02,Database Server,Authentication,INFO,192.168.8.111,Password authentication failed
+85,2026-08-21 04:01:00,APP-SERVER-01,Linux Server,Network,WARNING,192.168.1.241,Network connection established
+86,2026-01-30 20:24:00,SWITCH-01,Network Device,CPU Monitoring,INFO,192.168.5.216,High CPU utilization detected
+87,2026-06-18 22:19:00,SWITCH-01,Network Device,Memory Monitoring,WARNING,192.168.3.165,Memory utilization exceeded threshold
+88,2026-08-18 17:35:00,WEB-SERVER-02,Windows Server,CPU Monitoring,INFO,192.168.5.12,CPU utilization normal
+89,2026-03-18 09:17:00,ROUTER-01,Network Device,Application,WARNING,192.168.7.158,Service response time exceeded threshold
+90,2026-07-15 02:14:00,DB-SERVER-02,Database Server,System,WARNING,192.168.7.218,System configuration changed
+91,2026-01-05 01:04:00,DB-SERVER-02,Database Server,Network,INFO,192.168.2.202,Packet loss detected
+92,2026-08-12 20:53:00,DB-SERVER-01,Database Server,Network,ERROR,192.168.2.208,Network interface is down
+93,2026-08-22 13:10:00,APP-SERVER-02,Linux Server,Application,ERROR,192.168.6.201,Service response time exceeded threshold
+94,2026-08-17 21:26:00,WEB-SERVER-02,Windows Server,System,INFO,192.168.5.235,Disk space running low
+95,2026-08-27 08:29:00,DB-SERVER-02,Database Server,CPU Monitoring,INFO,192.168.8.167,High CPU utilization detected
+96,2026-06-05 00:10:00,APP-SERVER-01,Linux Server,CPU Monitoring,WARNING,192.168.7.121,CPU utilization normal
+97,2026-02-18 07:19:00,DB-SERVER-02,Database Server,System,WARNING,192.168.4.54,System configuration changed
+98,2026-08-26 13:15:00,SWITCH-01,Network Device,Authentication,INFO,192.168.1.136,Successful user login
+99,2026-03-21 18:53:00,WEB-SERVER-01,Windows Server,Authentication,INFO,192.168.3.95,User account locked
+100,2026-07-05 05:16:00,DB-SERVER-01,Database Server,CPU Monitoring,ERROR,192.168.6.144,CPU utilization exceeded threshold
+101,2026-08-12 00:22:00,APP-SERVER-02,Linux Server,CPU Monitoring,CRITICAL,192.168.2.1,CPU utilization normal
+102,2026-02-24 17:16:00,DB-SERVER-01,Database Server,Network,INFO,192.168.1.122,Network connection established
+103,2026-03-07 22:09:00,WEB-SERVER-01,Windows Server,System,ERROR,192.168.9.6,System service restarted
+104,2026-02-11 17:06:00,WEB-SERVER-02,Windows Server,CPU Monitoring,INFO,192.168.5.117,CPU utilization exceeded threshold
+105,2026-08-09 22:14:00,APP-SERVER-01,Linux Server,System,WARNING,192.168.1.127,Disk space running low
+106,2026-05-18 14:10:00,SWITCH-01,Network Device,System,WARNING,192.168.5.236,System configuration changed
+107,2026-06-24 12:15:00,WEB-SERVER-01,Windows Server,Network,INFO,192.168.9.9,Network interface is down
+108,2026-08-01 12:39:00,DB-SERVER-01,Database Server,Network,INFO,192.168.1.217,Network interface is down
+109,2026-08-01 06:04:00,DB-SERVER-02,Database Server,Network,ERROR,192.168.2.206,Packet loss detected
+110,2026-01-15 14:18:00,APP-SERVER-02,Linux Server,Application,WARNING,192.168.5.93,Application error occurred
+111,2026-03-31 12:57:00,DB-SERVER-02,Database Server,Memory Monitoring,CRITICAL,192.168.9.118,Memory utilization exceeded threshold
+112,2026-04-13 18:16:00,APP-SERVER-02,Linux Server,CPU Monitoring,INFO,192.168.7.244,CPU utilization exceeded threshold
+113,2026-05-31 11:22:00,ROUTER-01,Network Device,Application,INFO,192.168.10.95,Application started successfully
+114,2026-02-23 13:49:00,APP-SERVER-01,Linux Server,Network,WARNING,192.168.2.212,Packet loss detected
+115,2026-05-27 00:44:00,WEB-SERVER-02,Windows Server,Application,INFO,192.168.9.185,Service response time exceeded threshold
+116,2026-06-13 04:32:00,WEB-SERVER-01,Windows Server,Authentication,WARNING,192.168.4.191,Failed login attempt
+117,2026-03-19 07:04:00,SWITCH-01,Network Device,Application,WARNING,192.168.3.126,Service response time exceeded threshold
+118,2026-05-03 06:09:00,SWITCH-01,Network Device,Memory Monitoring,WARNING,192.168.5.136,High memory utilization detected
+119,2026-07-13 04:01:00,SWITCH-01,Network Device,System,INFO,192.168.4.236,System service restarted
+120,2026-02-18 23:17:00,WEB-SERVER-02,Windows Server,Application,INFO,192.168.5.94,Application error occurred
+121,2026-03-06 03:30:00,SWITCH-01,Network Device,Application,WARNING,192.168.7.52,Service response time exceeded threshold
+122,2026-04-10 09:43:00,APP-SERVER-01,Linux Server,Authentication,WARNING,192.168.6.66,Password authentication failed
+123,2026-01-13 16:47:00,DB-SERVER-01,Database Server,Network,INFO,192.168.2.55,Network interface is down
+124,2026-04-14 21:50:00,SWITCH-01,Network Device,Application,WARNING,192.168.10.166,Database connection timeout
+125,2026-06-03 06:11:00,DB-SERVER-01,Database Server,Network,INFO,192.168.7.49,Network connectivity restored
+126,2026-07-23 09:30:00,DB-SERVER-01,Database Server,Memory Monitoring,INFO,192.168.9.75,Memory utilization exceeded threshold
+127,2026-04-17 16:01:00,APP-SERVER-01,Linux Server,Memory Monitoring,INFO,192.168.8.99,Memory utilization normal
+128,2026-08-07 15:45:00,ROUTER-01,Network Device,Network,INFO,192.168.8.138,Network connectivity restored
+129,2026-06-13 00:48:00,WEB-SERVER-01,Windows Server,Application,INFO,192.168.1.197,Application started successfully
+130,2026-07-02 12:15:00,DB-SERVER-01,Database Server,Application,WARNING,192.168.4.35,Application error occurred
+131,2026-05-31 19:53:00,DB-SERVER-02,Database Server,Memory Monitoring,ERROR,192.168.7.4,Memory utilization normal
+132,2026-02-14 09:48:00,WEB-SERVER-02,Windows Server,Memory Monitoring,INFO,192.168.3.18,High memory utilization detected
+133,2026-04-23 05:17:00,APP-SERVER-02,Linux Server,CPU Monitoring,INFO,192.168.8.193,CPU utilization normal
+134,2026-01-20 02:18:00,WEB-SERVER-01,Windows Server,Authentication,INFO,192.168.2.155,Password authentication failed
+135,2026-02-26 05:43:00,DB-SERVER-02,Database Server,Application,INFO,192.168.4.198,Application error occurred
+136,2026-01-18 06:21:00,WEB-SERVER-02,Windows Server,Network,WARNING,192.168.7.138,Network interface is down
+137,2026-05-21 21:43:00,APP-SERVER-02,Linux Server,Application,INFO,192.168.7.159,Service response time exceeded threshold
+138,2026-02-10 13:49:00,APP-SERVER-01,Linux Server,Authentication,INFO,192.168.9.76,Successful user login
+139,2026-01-09 09:31:00,SWITCH-01,Network Device,System,WARNING,192.168.10.2,System service restarted
+140,2026-07-07 11:32:00,SWITCH-01,Network Device,Authentication,WARNING,192.168.6.71,Failed login attempt
+141,2026-02-05 21:32:00,WEB-SERVER-02,Windows Server,Network,ERROR,192.168.1.251,Network connectivity restored
+142,2026-01-12 17:56:00,WEB-SERVER-01,Windows Server,Memory Monitoring,WARNING,192.168.1.136,High memory utilization detected
+143,2026-07-13 09:07:00,APP-SERVER-01,Linux Server,Memory Monitoring,INFO,192.168.9.234,Memory utilization normal
+144,2026-06-10 13:42:00,APP-SERVER-01,Linux Server,Network,INFO,192.168.2.17,Network connection established
+145,2026-05-11 19:04:00,DB-SERVER-01,Database Server,CPU Monitoring,WARNING,192.168.9.118,High CPU utilization detected
+146,2026-08-02 17:36:00,SWITCH-01,Network Device,Authentication,WARNING,192.168.2.93,User account locked
+147,2026-03-14 00:55:00,APP-SERVER-01,Linux Server,System,INFO,192.168.4.35,System configuration changed
+148,2026-03-16 10:23:00,DB-SERVER-01,Database Server,Memory Monitoring,WARNING,192.168.6.219,High memory utilization detected
+149,2026-08-12 11:34:00,WEB-SERVER-01,Windows Server,Memory Monitoring,INFO,192.168.3.32,High memory utilization detected
+150,2026-04-04 10:23:00,ROUTER-01,Network Device,Application,INFO,192.168.3.171,Application error occurred
+151,2026-04-04 07:07:00,DB-SERVER-02,Database Server,Application,WARNING,192.168.5.52,Service response time exceeded threshold
+152,2026-07-16 00:34:00,APP-SERVER-02,Linux Server,Memory Monitoring,INFO,192.168.4.127,Memory utilization normal
+153,2026-01-27 18:00:00,WEB-SERVER-01,Windows Server,Memory Monitoring,ERROR,192.168.10.159,Memory utilization exceeded threshold
+154,2026-02-23 09:20:00,DB-SERVER-02,Database Server,System,WARNING,192.168.9.50,System service restarted
+155,2026-07-04 08:12:00,APP-SERVER-02,Linux Server,Memory Monitoring,WARNING,192.168.7.243,High memory utilization detected
+156,2026-01-04 09:04:00,DB-SERVER-02,Database Server,Authentication,INFO,192.168.3.126,Password authentication failed
+157,2026-07-13 18:37:00,SWITCH-01,Network Device,Authentication,INFO,192.168.10.93,Password authentication failed
+158,2026-08-09 10:34:00,DB-SERVER-02,Database Server,System,INFO,192.168.3.253,System startup completed
+159,2026-01-28 18:54:00,WEB-SERVER-01,Windows Server,Network,INFO,192.168.10.166,Packet loss detected
+160,2026-07-17 21:15:00,APP-SERVER-02,Linux Server,Application,INFO,192.168.6.132,Application started successfully
+161,2026-04-24 20:35:00,WEB-SERVER-02,Windows Server,System,WARNING,192.168.6.45,System configuration changed
+162,2026-05-21 17:48:00,DB-SERVER-02,Database Server,CPU Monitoring,INFO,192.168.3.218,CPU utilization normal
+163,2026-08-03 11:42:00,WEB-SERVER-02,Windows Server,Network,INFO,192.168.10.84,Network connectivity restored
+164,2026-03-25 05:32:00,DB-SERVER-02,Database Server,CPU Monitoring,INFO,192.168.5.126,High CPU utilization detected
+165,2026-08-01 07:39:00,WEB-SERVER-01,Windows Server,Memory Monitoring,INFO,192.168.10.62,High memory utilization detected
+166,2026-07-20 04:02:00,WEB-SERVER-01,Windows Server,Network,WARNING,192.168.7.179,Packet loss detected
+167,2026-07-18 13:26:00,APP-SERVER-01,Linux Server,Application,INFO,192.168.3.161,Application started successfully
+168,2026-08-01 07:26:00,APP-SERVER-02,Linux Server,Memory Monitoring,INFO,192.168.9.214,Memory utilization exceeded threshold
+169,2026-04-09 12:11:00,WEB-SERVER-02,Windows Server,Network,ERROR,192.168.9.64,Packet loss detected
+170,2026-03-03 09:19:00,ROUTER-01,Network Device,System,INFO,192.168.8.43,Disk space running low
+171,2026-08-14 02:58:00,ROUTER-01,Network Device,Network,WARNING,192.168.9.108,Network interface is down
+172,2026-04-30 00:24:00,SWITCH-01,Network Device,Network,INFO,192.168.8.145,Network connectivity restored
+173,2026-01-09 09:31:00,WEB-SERVER-02,Windows Server,Authentication,INFO,192.168.7.252,Failed login attempt
+174,2026-08-22 20:06:00,ROUTER-01,Network Device,Application,INFO,192.168.10.49,Database connection timeout
+175,2026-08-16 19:53:00,DB-SERVER-02,Database Server,CPU Monitoring,ERROR,192.168.1.12,CPU utilization normal
+176,2026-01-09 19:02:00,APP-SERVER-02,Linux Server,Memory Monitoring,ERROR,192.168.2.236,Memory utilization normal
+177,2026-01-23 11:36:00,SWITCH-01,Network Device,Network,INFO,192.168.6.239,Network connectivity restored
+178,2026-08-13 20:52:00,SWITCH-01,Network Device,Network,ERROR,192.168.3.120,Network interface is down
+179,2026-01-18 17:15:00,APP-SERVER-02,Linux Server,System,INFO,192.168.3.130,System configuration changed
+180,2026-07-16 06:25:00,DB-SERVER-02,Database Server,System,INFO,192.168.3.41,Disk space running low
+181,2026-04-03 22:03:00,WEB-SERVER-02,Windows Server,System,INFO,192.168.3.231,System configuration changed
+182,2026-06-19 07:18:00,WEB-SERVER-01,Windows Server,Memory Monitoring,WARNING,192.168.4.176,Memory utilization exceeded threshold
+183,2026-02-17 17:24:00,DB-SERVER-02,Database Server,Memory Monitoring,WARNING,192.168.8.163,Memory utilization normal
+184,2026-02-17 07:31:00,DB-SERVER-01,Database Server,System,INFO,192.168.8.218,Disk space running low
+185,2026-01-29 18:50:00,WEB-SERVER-02,Windows Server,Authentication,INFO,192.168.7.112,Successful user login
+186,2026-01-18 21:03:00,WEB-SERVER-02,Windows Server,CPU Monitoring,ERROR,192.168.5.12,High CPU utilization detected
+187,2026-06-04 04:23:00,APP-SERVER-01,Linux Server,Network,INFO,192.168.3.175,Network connectivity restored
+188,2026-06-06 04:49:00,DB-SERVER-01,Database Server,Authentication,INFO,192.168.10.55,Password authentication failed
+189,2026-02-28 04:50:00,ROUTER-01,Network Device,System,INFO,192.168.9.26,System service restarted
+190,2026-04-06 21:33:00,APP-SERVER-02,Linux Server,Authentication,WARNING,192.168.9.187,Successful user login
+191,2026-03-09 20:34:00,APP-SERVER-02,Linux Server,Network,INFO,192.168.5.33,Network connectivity restored
+192,2026-05-25 14:31:00,ROUTER-01,Network Device,System,INFO,192.168.3.230,Disk space running low
+193,2026-06-17 03:39:00,APP-SERVER-01,Linux Server,Network,INFO,192.168.10.173,Network interface is down
+194,2026-05-10 00:50:00,DB-SERVER-02,Database Server,Memory Monitoring,ERROR,192.168.6.228,High memory utilization detected
+195,2026-06-07 16:43:00,APP-SERVER-01,Linux Server,Memory Monitoring,INFO,192.168.1.111,Memory utilization exceeded threshold
+196,2026-08-11 11:34:00,SWITCH-01,Network Device,Authentication,WARNING,192.168.4.60,Failed login attempt
+197,2026-03-13 00:23:00,DB-SERVER-01,Database Server,Application,INFO,192.168.10.206,Application started successfully
+198,2026-08-14 23:54:00,WEB-SERVER-02,Windows Server,CPU Monitoring,INFO,192.168.2.20,CPU utilization exceeded threshold
+199,2026-03-09 16:04:00,APP-SERVER-01,Linux Server,Application,WARNING,192.168.6.46,Service response time exceeded threshold
+200,2026-06-28 06:16:00,WEB-SERVER-01,Windows Server,Memory Monitoring,INFO,192.168.10.26,Memory utilization exceeded threshold
+201,2026-06-28 17:31:00,ROUTER-01,Network Device,Memory Monitoring,WARNING,192.168.7.216,Memory utilization normal
+202,2026-03-24 03:00:00,DB-SERVER-01,Database Server,System,INFO,192.168.3.214,System service restarted
+203,2026-08-05 19:07:00,SWITCH-01,Network Device,Memory Monitoring,WARNING,192.168.3.26,High memory utilization detected
+204,2026-04-22 05:17:00,ROUTER-01,Network Device,Network,WARNING,192.168.2.109,Packet loss detected
+205,2026-01-22 00:51:00,SWITCH-01,Network Device,Memory Monitoring,INFO,192.168.10.155,Memory utilization normal
+206,2026-07-08 10:48:00,APP-SERVER-01,Linux Server,Application,INFO,192.168.2.218,Service response time exceeded threshold
+207,2026-08-05 04:59:00,SWITCH-01,Network Device,Memory Monitoring,ERROR,192.168.3.6,Memory utilization normal
+208,2026-01-14 14:47:00,SWITCH-01,Network Device,Network,INFO,192.168.8.122,Network connection established
+209,2026-01-24 17:59:00,APP-SERVER-02,Linux Server,CPU Monitoring,INFO,192.168.7.37,High CPU utilization detected
+210,2026-07-29 07:01:00,APP-SERVER-02,Linux Server,Memory Monitoring,WARNING,192.168.10.64,High memory utilization detected
+211,2026-04-11 15:29:00,DB-SERVER-01,Database Server,Application,INFO,192.168.9.58,Application started successfully
+212,2026-01-22 11:10:00,APP-SERVER-01,Linux Server,Authentication,ERROR,192.168.7.52,Password authentication failed
+213,2026-02-25 12:05:00,DB-SERVER-01,Database Server,Application,INFO,192.168.5.216,Service response time exceeded threshold
+214,2026-05-28 05:36:00,APP-SERVER-01,Linux Server,Authentication,WARNING,192.168.4.15,Successful user login
+215,2026-05-12 11:31:00,DB-SERVER-02,Database Server,Application,INFO,192.168.10.252,Application error occurred
+216,2026-04-12 10:20:00,ROUTER-01,Network Device,Authentication,INFO,192.168.8.52,Password authentication failed
+217,2026-03-22 15:19:00,ROUTER-01,Network Device,System,CRITICAL,192.168.10.119,System startup completed
+218,2026-02-26 21:41:00,SWITCH-01,Network Device,Memory Monitoring,ERROR,192.168.7.195,Memory utilization exceeded threshold
+219,2026-08-12 18:01:00,ROUTER-01,Network Device,Memory Monitoring,WARNING,192.168.2.145,Memory utilization exceeded threshold
+220,2026-07-31 04:49:00,ROUTER-01,Network Device,CPU Monitoring,INFO,192.168.4.163,CPU utilization normal
+221,2026-01-27 15:21:00,SWITCH-01,Network Device,Authentication,INFO,192.168.3.46,Password authentication failed
+222,2026-03-24 04:20:00,APP-SERVER-02,Linux Server,Memory Monitoring,INFO,192.168.4.56,High memory utilization detected
+223,2026-08-13 17:14:00,WEB-SERVER-01,Windows Server,Authentication,INFO,192.168.1.197,Password authentication failed
+224,2026-06-21 10:48:00,ROUTER-01,Network Device,CPU Monitoring,WARNING,192.168.6.101,CPU utilization normal
+225,2026-08-02 11:15:00,WEB-SERVER-01,Windows Server,Authentication,ERROR,192.168.2.46,Successful user login
+226,2026-03-15 01:28:00,WEB-SERVER-01,Windows Server,System,WARNING,192.168.3.234,Disk space running low
+227,2026-06-05 06:53:00,DB-SERVER-01,Database Server,Network,INFO,192.168.3.78,Network connection established
+228,2026-06-09 11:27:00,SWITCH-01,Network Device,Network,INFO,192.168.1.100,Packet loss detected
+229,2026-05-01 20:23:00,APP-SERVER-02,Linux Server,CPU Monitoring,ERROR,192.168.2.97,CPU utilization exceeded threshold
+230,2026-04-14 12:31:00,DB-SERVER-02,Database Server,System,CRITICAL,192.168.1.188,System configuration changed
+231,2026-02-12 00:01:00,APP-SERVER-01,Linux Server,Authentication,ERROR,192.168.7.145,Successful user login
+232,2026-02-24 06:54:00,WEB-SERVER-02,Windows Server,Application,INFO,192.168.10.226,Database connection timeout
+233,2026-04-05 19:57:00,SWITCH-01,Network Device,Network,INFO,192.168.4.177,Network connection established
+234,2026-02-13 11:33:00,APP-SERVER-02,Linux Server,Authentication,INFO,192.168.9.190,Failed login attempt
+235,2026-02-13 16:25:00,APP-SERVER-02,Linux Server,System,INFO,192.168.6.21,System startup completed
+236,2026-02-10 23:23:00,WEB-SERVER-02,Windows Server,System,WARNING,192.168.4.9,Disk space running low
+237,2026-05-04 21:57:00,DB-SERVER-02,Database Server,System,INFO,192.168.2.172,System service restarted
+238,2026-01-17 11:05:00,APP-SERVER-02,Linux Server,Application,ERROR,192.168.4.200,Application error occurred
+239,2026-02-25 05:26:00,WEB-SERVER-01,Windows Server,Application,INFO,192.168.5.162,Application started successfully
+240,2026-07-16 00:52:00,DB-SERVER-02,Database Server,Network,WARNING,192.168.3.123,Network interface is down
+241,2026-07-18 19:59:00,WEB-SERVER-01,Windows Server,CPU Monitoring,WARNING,192.168.8.66,High CPU utilization detected
+242,2026-08-02 06:00:00,DB-SERVER-01,Database Server,Application,ERROR,192.168.7.111,Application started successfully
+243,2026-02-20 23:35:00,APP-SERVER-02,Linux Server,System,INFO,192.168.9.238,System service restarted
+244,2026-05-04 09:36:00,WEB-SERVER-01,Windows Server,Network,ERROR,192.168.9.54,Network connectivity restored
+245,2026-04-18 09:58:00,WEB-SERVER-02,Windows Server,System,INFO,192.168.3.118,Disk space running low
+246,2026-06-27 22:22:00,WEB-SERVER-01,Windows Server,Memory Monitoring,INFO,192.168.4.208,Memory utilization exceeded threshold
+247,2026-06-15 09:15:00,WEB-SERVER-01,Windows Server,CPU Monitoring,INFO,192.168.10.18,CPU utilization exceeded threshold
+248,2026-07-16 21:22:00,DB-SERVER-02,Database Server,CPU Monitoring,INFO,192.168.9.56,High CPU utilization detected
+249,2026-06-09 19:11:00,SWITCH-01,Network Device,System,WARNING,192.168.6.4,Disk space running low
+250,2026-05-16 00:54:00,ROUTER-01,Network Device,Application,INFO,192.168.2.228,Application error occurred
+251,2026-03-19 03:13:00,SWITCH-01,Network Device,Authentication,INFO,192.168.7.246,Password authentication failed
+252,2026-04-07 19:11:00,APP-SERVER-01,Linux Server,System,INFO,192.168.3.228,System startup completed
+253,2026-05-13 19:03:00,DB-SERVER-01,Database Server,CPU Monitoring,INFO,192.168.9.156,High CPU utilization detected
+254,2026-03-17 14:56:00,WEB-SERVER-02,Windows Server,Memory Monitoring,CRITICAL,192.168.3.54,Memory utilization exceeded threshold
+255,2026-05-15 21:19:00,DB-SERVER-01,Database Server,Network,ERROR,192.168.10.160,Network connection established
+256,2026-07-23 07:17:00,DB-SERVER-01,Database Server,Authentication,INFO,192.168.6.136,Password authentication failed
+257,2026-03-24 11:58:00,WEB-SERVER-02,Windows Server,Authentication,INFO,192.168.10.173,Password authentication failed
+258,2026-03-01 15:40:00,DB-SERVER-01,Database Server,Network,INFO,192.168.5.142,Network connection established
+259,2026-07-20 20:26:00,APP-SERVER-02,Linux Server,Network,ERROR,192.168.5.117,Packet loss detected
+260,2026-01-05 22:13:00,APP-SERVER-02,Linux Server,Memory Monitoring,INFO,192.168.7.97,Memory utilization normal
+261,2026-05-20 14:34:00,ROUTER-01,Network Device,CPU Monitoring,INFO,192.168.2.102,CPU utilization normal
+262,2026-06-26 06:02:00,WEB-SERVER-01,Windows Server,CPU Monitoring,INFO,192.168.5.232,High CPU utilization detected
+263,2026-03-13 16:44:00,SWITCH-01,Network Device,Network,WARNING,192.168.4.54,Network connectivity restored
+264,2026-08-16 18:03:00,DB-SERVER-02,Database Server,CPU Monitoring,WARNING,192.168.8.10,CPU utilization normal
+265,2026-05-29 17:15:00,DB-SERVER-02,Database Server,System,INFO,192.168.7.80,System service restarted
+266,2026-03-20 09:29:00,APP-SERVER-01,Linux Server,System,INFO,192.168.7.220,System startup completed
+267,2026-05-04 15:42:00,DB-SERVER-01,Database Server,System,INFO,192.168.3.193,System configuration changed
+268,2026-07-09 13:41:00,DB-SERVER-01,Database Server,System,WARNING,192.168.5.193,System startup completed
+269,2026-06-13 23:44:00,DB-SERVER-02,Database Server,Network,INFO,192.168.1.61,Network connectivity restored
+270,2026-05-18 21:02:00,ROUTER-01,Network Device,Network,WARNING,192.168.3.73,Network interface is down
+271,2026-04-06 05:00:00,APP-SERVER-01,Linux Server,CPU Monitoring,ERROR,192.168.6.64,CPU utilization normal
+272,2026-08-18 14:39:00,DB-SERVER-02,Database Server,System,INFO,192.168.4.77,System configuration changed
+273,2026-04-29 21:43:00,WEB-SERVER-02,Windows Server,CPU Monitoring,WARNING,192.168.2.229,High CPU utilization detected
+274,2026-06-28 17:22:00,APP-SERVER-02,Linux Server,Application,WARNING,192.168.5.238,Application started successfully
+275,2026-03-21 18:27:00,ROUTER-01,Network Device,Authentication,INFO,192.168.3.113,User account locked
+276,2026-04-01 12:19:00,WEB-SERVER-02,Windows Server,Application,INFO,192.168.4.249,Application started successfully
+277,2026-04-26 20:38:00,DB-SERVER-01,Database Server,Application,INFO,192.168.5.27,Service response time exceeded threshold
+278,2026-04-22 18:58:00,APP-SERVER-01,Linux Server,Application,INFO,192.168.1.46,Database connection timeout
+279,2026-06-16 06:09:00,DB-SERVER-02,Database Server,Authentication,ERROR,192.168.7.158,Successful user login
+280,2026-03-09 23:47:00,SWITCH-01,Network Device,Application,INFO,192.168.10.241,Application error occurred
+281,2026-05-26 15:41:00,APP-SERVER-01,Linux Server,CPU Monitoring,INFO,192.168.2.27,CPU utilization exceeded threshold
+282,2026-02-01 04:11:00,ROUTER-01,Network Device,CPU Monitoring,INFO,192.168.3.27,CPU utilization exceeded threshold
+283,2026-05-14 05:54:00,APP-SERVER-02,Linux Server,System,INFO,192.168.4.24,System configuration changed
+284,2026-06-16 06:04:00,APP-SERVER-02,Linux Server,Authentication,INFO,192.168.7.222,Password authentication failed
+285,2026-01-13 15:21:00,DB-SERVER-02,Database Server,Network,INFO,192.168.10.78,Packet loss detected
+286,2026-07-16 21:24:00,WEB-SERVER-01,Windows Server,Authentication,INFO,192.168.6.146,Password authentication failed
+287,2026-06-28 16:20:00,APP-SERVER-02,Linux Server,Authentication,INFO,192.168.7.165,Successful user login
+288,2026-07-14 16:20:00,WEB-SERVER-02,Windows Server,Authentication,INFO,192.168.2.167,Successful user login
+289,2026-05-23 16:01:00,DB-SERVER-01,Database Server,Application,WARNING,192.168.5.178,Application started successfully
+290,2026-07-20 09:21:00,WEB-SERVER-02,Windows Server,System,INFO,192.168.8.219,System configuration changed
+291,2026-05-20 02:07:00,APP-SERVER-02,Linux Server,Authentication,ERROR,192.168.3.47,Successful user login
+292,2026-06-17 03:34:00,ROUTER-01,Network Device,CPU Monitoring,INFO,192.168.7.68,High CPU utilization detected
+293,2026-05-17 23:33:00,ROUTER-01,Network Device,Memory Monitoring,INFO,192.168.10.125,High memory utilization detected
+294,2026-08-15 07:30:00,DB-SERVER-02,Database Server,Authentication,INFO,192.168.5.67,Successful user login
+295,2026-08-04 22:54:00,ROUTER-01,Network Device,System,INFO,192.168.10.216,System startup completed
+296,2026-03-18 11:27:00,DB-SERVER-01,Database Server,Application,WARNING,192.168.3.240,Application started successfully
+297,2026-04-16 09:03:00,WEB-SERVER-01,Windows Server,Network,INFO,192.168.7.55,Network connectivity restored
+298,2026-06-09 15:53:00,APP-SERVER-02,Linux Server,System,WARNING,192.168.7.130,System startup completed
+299,2026-02-02 09:35:00,ROUTER-01,Network Device,Authentication,INFO,192.168.8.189,Password authentication failed
+300,2026-06-22 05:43:00,APP-SERVER-02,Linux Server,Application,ERROR,192.168.3.245,Application error occurred
+301,2026-03-28 10:58:00,DB-SERVER-02,Database Server,Network,INFO,192.168.10.137,Network interface is down
+302,2026-07-23 19:19:00,DB-SERVER-01,Database Server,System,INFO,192.168.5.224,System configuration changed
+303,2026-01-08 09:51:00,WEB-SERVER-02,Windows Server,CPU Monitoring,WARNING,192.168.4.67,CPU utilization exceeded threshold
+304,2026-08-12 19:55:00,DB-SERVER-01,Database Server,Network,ERROR,192.168.1.34,Network connectivity restored
+305,2026-03-07 17:32:00,WEB-SERVER-01,Windows Server,CPU Monitoring,INFO,192.168.6.129,CPU utilization exceeded threshold
+306,2026-05-10 18:10:00,APP-SERVER-01,Linux Server,Network,INFO,192.168.9.120,Network connectivity restored
+307,2026-02-20 12:26:00,ROUTER-01,Network Device,Application,ERROR,192.168.7.39,Application started successfully
+308,2026-06-07 16:52:00,WEB-SERVER-01,Windows Server,CPU Monitoring,WARNING,192.168.2.252,High CPU utilization detected
+309,2026-07-06 23:12:00,ROUTER-01,Network Device,Memory Monitoring,ERROR,192.168.3.163,High memory utilization detected
+310,2026-04-29 23:03:00,DB-SERVER-01,Database Server,CPU Monitoring,INFO,192.168.8.27,CPU utilization exceeded threshold
+311,2026-06-25 01:26:00,WEB-SERVER-01,Windows Server,Application,CRITICAL,192.168.6.65,Application error occurred
+312,2026-05-02 10:53:00,ROUTER-01,Network Device,Authentication,INFO,192.168.5.109,Password authentication failed
+313,2026-01-23 22:47:00,WEB-SERVER-02,Windows Server,Memory Monitoring,WARNING,192.168.1.102,Memory utilization exceeded threshold
+314,2026-06-18 13:57:00,SWITCH-01,Network Device,Memory Monitoring,WARNING,192.168.6.234,Memory utilization exceeded threshold
+315,2026-01-05 09:44:00,WEB-SERVER-01,Windows Server,Network,INFO,192.168.6.158,Network interface is down
+316,2026-08-16 08:09:00,APP-SERVER-02,Linux Server,Authentication,INFO,192.168.10.210,Password authentication failed
+317,2026-01-23 07:07:00,WEB-SERVER-02,Windows Server,Authentication,WARNING,192.168.10.122,Password authentication failed
+318,2026-07-21 13:53:00,SWITCH-01,Network Device,Network,INFO,192.168.2.4,Packet loss detected
+319,2026-07-20 15:34:00,DB-SERVER-02,Database Server,System,INFO,192.168.5.186,Disk space running low
+320,2026-06-16 23:26:00,ROUTER-01,Network Device,Network,INFO,192.168.3.159,Packet loss detected
+321,2026-07-09 22:46:00,DB-SERVER-01,Database Server,CPU Monitoring,INFO,192.168.10.73,CPU utilization exceeded threshold
+322,2026-04-06 04:10:00,DB-SERVER-02,Database Server,Network,WARNING,192.168.8.145,Network connectivity restored
+323,2026-06-25 16:44:00,WEB-SERVER-01,Windows Server,Memory Monitoring,INFO,192.168.5.195,Memory utilization normal
+324,2026-05-14 07:46:00,APP-SERVER-01,Linux Server,Memory Monitoring,INFO,192.168.8.205,Memory utilization exceeded threshold
+325,2026-05-22 15:02:00,APP-SERVER-01,Linux Server,CPU Monitoring,INFO,192.168.2.232,CPU utilization normal
+326,2026-03-02 23:13:00,ROUTER-01,Network Device,Network,WARNING,192.168.6.124,Network connectivity restored
+327,2026-06-10 11:11:00,APP-SERVER-01,Linux Server,System,INFO,192.168.7.228,System startup completed
+328,2026-04-08 16:29:00,APP-SERVER-01,Linux Server,Network,WARNING,192.168.6.17,Packet loss detected
+329,2026-01-20 15:38:00,APP-SERVER-01,Linux Server,CPU Monitoring,INFO,192.168.2.206,CPU utilization normal
+330,2026-05-28 12:16:00,ROUTER-01,Network Device,Application,INFO,192.168.6.137,Application started successfully
+331,2026-01-04 13:14:00,DB-SERVER-01,Database Server,CPU Monitoring,ERROR,192.168.3.59,High CPU utilization detected
+332,2026-07-04 08:27:00,WEB-SERVER-02,Windows Server,Authentication,INFO,192.168.10.129,Successful user login
+333,2026-05-15 23:13:00,WEB-SERVER-02,Windows Server,Authentication,INFO,192.168.6.38,User account locked
+334,2026-07-17 16:28:00,ROUTER-01,Network Device,Network,INFO,192.168.1.35,Network interface is down
+335,2026-07-23 17:51:00,WEB-SERVER-01,Windows Server,Application,INFO,192.168.9.227,Application error occurred
+336,2026-02-15 02:47:00,APP-SERVER-01,Linux Server,Network,CRITICAL,192.168.6.211,Network connectivity restored
+337,2026-02-22 16:56:00,DB-SERVER-01,Database Server,Application,INFO,192.168.2.10,Application error occurred
+338,2026-08-11 04:51:00,SWITCH-01,Network Device,CPU Monitoring,INFO,192.168.8.105,CPU utilization exceeded threshold
+339,2026-06-25 16:50:00,APP-SERVER-02,Linux Server,System,ERROR,192.168.7.85,System service restarted
+340,2026-08-09 18:28:00,SWITCH-01,Network Device,Authentication,INFO,192.168.7.130,Password authentication failed
+341,2026-06-23 10:57:00,DB-SERVER-02,Database Server,Memory Monitoring,INFO,192.168.9.229,High memory utilization detected
+342,2026-06-03 22:43:00,WEB-SERVER-02,Windows Server,System,INFO,192.168.5.204,Disk space running low
+343,2026-04-19 01:11:00,ROUTER-01,Network Device,Network,INFO,192.168.4.185,Network connectivity restored
+344,2026-03-31 15:28:00,DB-SERVER-02,Database Server,Application,ERROR,192.168.9.7,Database connection timeout
+345,2026-08-05 14:06:00,ROUTER-01,Network Device,Authentication,ERROR,192.168.6.98,Successful user login
+346,2026-06-05 13:16:00,APP-SERVER-01,Linux Server,Memory Monitoring,WARNING,192.168.5.125,Memory utilization exceeded threshold
+347,2026-02-12 00:43:00,SWITCH-01,Network Device,Application,WARNING,192.168.4.26,Database connection timeout
+348,2026-01-26 08:05:00,DB-SERVER-01,Database Server,System,WARNING,192.168.2.91,System service restarted
+349,2026-01-06 05:13:00,SWITCH-01,Network Device,Application,INFO,192.168.6.220,Service response time exceeded threshold
+350,2026-04-11 07:27:00,ROUTER-01,Network Device,Memory Monitoring,INFO,192.168.4.140,High memory utilization detected
+351,2026-03-24 02:29:00,WEB-SERVER-02,Windows Server,Memory Monitoring,INFO,192.168.5.126,Memory utilization exceeded threshold
+352,2026-01-10 07:04:00,WEB-SERVER-01,Windows Server,Authentication,INFO,192.168.2.133,Password authentication failed
+353,2026-06-20 04:21:00,APP-SERVER-02,Linux Server,Authentication,INFO,192.168.10.211,User account locked
+354,2026-04-14 11:33:00,SWITCH-01,Network Device,CPU Monitoring,WARNING,192.168.3.16,High CPU utilization detected
+355,2026-05-20 10:49:00,APP-SERVER-01,Linux Server,Memory Monitoring,ERROR,192.168.9.107,Memory utilization exceeded threshold
+356,2026-08-24 16:16:00,APP-SERVER-01,Linux Server,CPU Monitoring,WARNING,192.168.4.97,CPU utilization exceeded threshold
+357,2026-03-28 21:07:00,WEB-SERVER-02,Windows Server,Memory Monitoring,ERROR,192.168.9.149,Memory utilization normal
+358,2026-05-01 06:08:00,APP-SERVER-01,Linux Server,Authentication,WARNING,192.168.4.74,Successful user login
+359,2026-01-06 03:53:00,APP-SERVER-01,Linux Server,Application,INFO,192.168.7.20,Application error occurred
+360,2026-05-31 04:36:00,ROUTER-01,Network Device,Authentication,INFO,192.168.9.211,User account locked
+361,2026-07-09 10:05:00,SWITCH-01,Network Device,System,INFO,192.168.6.13,System configuration changed
+362,2026-03-23 13:18:00,WEB-SERVER-01,Windows Server,Memory Monitoring,WARNING,192.168.6.56,Memory utilization exceeded threshold
+363,2026-03-22 07:56:00,APP-SERVER-01,Linux Server,Authentication,INFO,192.168.2.90,Password authentication failed
+364,2026-01-13 13:31:00,SWITCH-01,Network Device,Network,INFO,192.168.2.119,Network connectivity restored
+365,2026-03-15 10:01:00,DB-SERVER-02,Database Server,System,WARNING,192.168.3.250,Disk space running low
+366,2026-01-26 19:16:00,SWITCH-01,Network Device,Memory Monitoring,CRITICAL,192.168.2.202,High memory utilization detected
+367,2026-01-15 17:13:00,DB-SERVER-02,Database Server,Memory Monitoring,WARNING,192.168.1.105,High memory utilization detected
+368,2026-01-30 03:55:00,APP-SERVER-01,Linux Server,Memory Monitoring,INFO,192.168.6.171,Memory utilization normal
+369,2026-05-18 02:54:00,APP-SERVER-02,Linux Server,System,INFO,192.168.4.67,System configuration changed
+370,2026-07-31 09:16:00,DB-SERVER-01,Database Server,Application,WARNING,192.168.4.45,Database connection timeout
+371,2026-07-30 03:59:00,WEB-SERVER-02,Windows Server,System,INFO,192.168.4.92,System service restarted
+372,2026-01-27 11:55:00,WEB-SERVER-02,Windows Server,Memory Monitoring,INFO,192.168.2.96,Memory utilization normal
+373,2026-08-16 22:48:00,WEB-SERVER-02,Windows Server,Memory Monitoring,ERROR,192.168.4.119,Memory utilization normal
+374,2026-08-21 21:20:00,APP-SERVER-02,Linux Server,Authentication,ERROR,192.168.7.195,User account locked
+375,2026-05-01 14:59:00,APP-SERVER-02,Linux Server,CPU Monitoring,INFO,192.168.10.153,CPU utilization normal
+376,2026-06-07 21:50:00,ROUTER-01,Network Device,Application,INFO,192.168.3.178,Database connection timeout
+377,2026-08-24 20:09:00,ROUTER-01,Network Device,System,INFO,192.168.2.108,System service restarted
+378,2026-06-06 21:30:00,APP-SERVER-02,Linux Server,Application,INFO,192.168.1.144,Application started successfully
+379,2026-06-12 07:35:00,WEB-SERVER-02,Windows Server,Authentication,ERROR,192.168.2.227,Successful user login
+380,2026-08-25 17:54:00,WEB-SERVER-01,Windows Server,CPU Monitoring,INFO,192.168.4.146,CPU utilization exceeded threshold
+381,2026-01-30 17:26:00,SWITCH-01,Network Device,Application,ERROR,192.168.2.178,Database connection timeout
+382,2026-04-10 15:52:00,APP-SERVER-01,Linux Server,Authentication,INFO,192.168.2.64,Password authentication failed
+383,2026-05-20 20:49:00,ROUTER-01,Network Device,Memory Monitoring,INFO,192.168.4.231,Memory utilization exceeded threshold
+384,2026-04-13 10:55:00,SWITCH-01,Network Device,Network,INFO,192.168.1.91,Network connection established
+385,2026-02-04 23:17:00,DB-SERVER-02,Database Server,Network,INFO,192.168.1.18,Packet loss detected
+386,2026-06-06 00:32:00,WEB-SERVER-01,Windows Server,Authentication,INFO,192.168.9.72,Successful user login
+387,2026-06-30 03:51:00,DB-SERVER-01,Database Server,Application,INFO,192.168.4.188,Database connection timeout
+388,2026-01-02 05:09:00,WEB-SERVER-02,Windows Server,Authentication,INFO,192.168.1.60,Password authentication failed
+389,2026-08-10 14:44:00,WEB-SERVER-02,Windows Server,Authentication,WARNING,192.168.5.33,Password authentication failed
+390,2026-06-14 21:42:00,DB-SERVER-01,Database Server,Authentication,INFO,192.168.2.197,Successful user login
+391,2026-02-26 03:50:00,APP-SERVER-01,Linux Server,Memory Monitoring,INFO,192.168.10.102,High memory utilization detected
+392,2026-01-17 15:50:00,APP-SERVER-02,Linux Server,Memory Monitoring,INFO,192.168.6.93,Memory utilization normal
+393,2026-08-17 20:11:00,SWITCH-01,Network Device,Memory Monitoring,INFO,192.168.8.224,High memory utilization detected
+394,2026-03-08 05:55:00,WEB-SERVER-02,Windows Server,Authentication,INFO,192.168.7.66,Successful user login
+395,2026-03-04 05:02:00,ROUTER-01,Network Device,Network,WARNING,192.168.5.232,Network connection established
+396,2026-03-04 05:57:00,DB-SERVER-02,Database Server,Network,WARNING,192.168.7.109,Network connectivity restored
+397,2026-08-01 01:14:00,SWITCH-01,Network Device,Application,INFO,192.168.10.49,Application started successfully
+398,2026-06-25 17:20:00,APP-SERVER-02,Linux Server,CPU Monitoring,INFO,192.168.5.209,High CPU utilization detected
+399,2026-08-14 16:06:00,DB-SERVER-02,Database Server,CPU Monitoring,INFO,192.168.1.40,High CPU utilization detected
+400,2026-05-19 07:56:00,DB-SERVER-02,Database Server,CPU Monitoring,INFO,192.168.9.223,CPU utilization normal
+401,2026-04-12 02:28:00,APP-SERVER-01,Linux Server,Network,WARNING,192.168.2.89,Network connection established
+402,2026-03-21 14:53:00,APP-SERVER-02,Linux Server,Network,INFO,192.168.4.29,Network connectivity restored
+403,2026-07-31 12:01:00,APP-SERVER-01,Linux Server,CPU Monitoring,WARNING,192.168.10.88,CPU utilization exceeded threshold
+404,2026-08-23 16:33:00,DB-SERVER-01,Database Server,Memory Monitoring,WARNING,192.168.6.42,Memory utilization exceeded threshold
+405,2026-08-31 10:25:00,APP-SERVER-01,Linux Server,Network,INFO,192.168.3.170,Packet loss detected
+406,2026-08-21 05:22:00,WEB-SERVER-02,Windows Server,System,INFO,192.168.1.199,Disk space running low
+407,2026-01-26 23:50:00,APP-SERVER-01,Linux Server,CPU Monitoring,WARNING,192.168.6.252,CPU utilization normal
+408,2026-03-07 05:24:00,WEB-SERVER-02,Windows Server,Authentication,INFO,192.168.5.90,User account locked
+409,2026-06-14 09:13:00,ROUTER-01,Network Device,Memory Monitoring,INFO,192.168.4.121,Memory utilization exceeded threshold
+410,2026-01-17 19:36:00,DB-SERVER-01,Database Server,Network,WARNING,192.168.5.188,Packet loss detected
+411,2026-05-01 22:48:00,WEB-SERVER-01,Windows Server,Authentication,INFO,192.168.8.101,Password authentication failed
+412,2026-05-15 11:05:00,SWITCH-01,Network Device,CPU Monitoring,INFO,192.168.5.178,CPU utilization exceeded threshold
+413,2026-02-13 19:44:00,DB-SERVER-01,Database Server,CPU Monitoring,INFO,192.168.6.162,CPU utilization normal
+414,2026-01-27 09:57:00,SWITCH-01,Network Device,Memory Monitoring,WARNING,192.168.3.70,High memory utilization detected
+415,2026-05-15 06:47:00,WEB-SERVER-01,Windows Server,Application,WARNING,192.168.6.224,Service response time exceeded threshold
+416,2026-01-07 06:52:00,WEB-SERVER-01,Windows Server,Memory Monitoring,INFO,192.168.7.230,High memory utilization detected
+417,2026-04-24 02:58:00,APP-SERVER-02,Linux Server,Authentication,ERROR,192.168.6.59,Password authentication failed
+418,2026-03-25 08:30:00,WEB-SERVER-02,Windows Server,Network,WARNING,192.168.7.177,Network connection established
+419,2026-06-29 13:16:00,DB-SERVER-02,Database Server,Application,INFO,192.168.6.245,Service response time exceeded threshold
+420,2026-03-07 15:26:00,ROUTER-01,Network Device,Memory Monitoring,CRITICAL,192.168.6.51,Memory utilization normal
+421,2026-02-21 19:26:00,ROUTER-01,Network Device,Network,INFO,192.168.6.52,Packet loss detected
+422,2026-03-17 15:30:00,WEB-SERVER-01,Windows Server,Application,INFO,192.168.7.235,Application error occurred
+423,2026-06-12 15:55:00,WEB-SERVER-02,Windows Server,Application,INFO,192.168.1.25,Database connection timeout
+424,2026-06-06 04:45:00,WEB-SERVER-01,Windows Server,Network,INFO,192.168.5.121,Packet loss detected
+425,2026-08-09 09:45:00,SWITCH-01,Network Device,CPU Monitoring,WARNING,192.168.1.223,CPU utilization normal
+426,2026-07-26 21:23:00,ROUTER-01,Network Device,CPU Monitoring,ERROR,192.168.4.125,CPU utilization normal
+427,2026-02-20 06:01:00,SWITCH-01,Network Device,Memory Monitoring,ERROR,192.168.6.84,Memory utilization exceeded threshold
+428,2026-03-30 21:00:00,WEB-SERVER-01,Windows Server,Authentication,WARNING,192.168.4.225,Successful user login
+429,2026-03-22 12:17:00,ROUTER-01,Network Device,Application,INFO,192.168.4.136,Database connection timeout
+430,2026-03-18 12:28:00,APP-SERVER-02,Linux Server,Memory Monitoring,INFO,192.168.6.140,High memory utilization detected
+431,2026-06-23 04:36:00,DB-SERVER-02,Database Server,CPU Monitoring,INFO,192.168.2.190,CPU utilization exceeded threshold
+432,2026-03-15 11:25:00,DB-SERVER-02,Database Server,CPU Monitoring,INFO,192.168.10.4,High CPU utilization detected
+433,2026-06-29 01:10:00,SWITCH-01,Network Device,Network,WARNING,192.168.10.30,Network connectivity restored
+434,2026-07-31 16:44:00,WEB-SERVER-01,Windows Server,CPU Monitoring,INFO,192.168.1.5,High CPU utilization detected
+435,2026-03-24 11:11:00,DB-SERVER-01,Database Server,System,INFO,192.168.9.238,System service restarted
+436,2026-02-04 20:14:00,DB-SERVER-02,Database Server,Application,INFO,192.168.4.2,Database connection timeout
+437,2026-08-20 10:41:00,WEB-SERVER-02,Windows Server,Memory Monitoring,INFO,192.168.8.61,High memory utilization detected
+438,2026-07-10 15:20:00,WEB-SERVER-02,Windows Server,Authentication,INFO,192.168.5.178,Failed login attempt
+439,2026-07-20 00:34:00,WEB-SERVER-02,Windows Server,Network,INFO,192.168.10.57,Packet loss detected
+440,2026-07-13 11:33:00,DB-SERVER-02,Database Server,Memory Monitoring,INFO,192.168.1.170,High memory utilization detected
+441,2026-05-20 17:37:00,WEB-SERVER-02,Windows Server,Authentication,INFO,192.168.1.90,Password authentication failed
+442,2026-01-05 16:13:00,WEB-SERVER-02,Windows Server,System,ERROR,192.168.3.100,System configuration changed
+443,2026-04-15 14:11:00,SWITCH-01,Network Device,CPU Monitoring,WARNING,192.168.9.98,High CPU utilization detected
+444,2026-05-18 21:39:00,APP-SERVER-02,Linux Server,Authentication,INFO,192.168.9.31,Failed login attempt
+445,2026-03-01 06:18:00,SWITCH-01,Network Device,CPU Monitoring,INFO,192.168.6.72,CPU utilization normal
+446,2026-02-12 18:26:00,DB-SERVER-01,Database Server,Application,INFO,192.168.8.210,Service response time exceeded threshold
+447,2026-08-17 21:13:00,APP-SERVER-01,Linux Server,Application,INFO,192.168.5.234,Database connection timeout
+448,2026-02-26 04:17:00,WEB-SERVER-01,Windows Server,Network,INFO,192.168.7.199,Packet loss detected
+449,2026-02-28 05:20:00,SWITCH-01,Network Device,Application,INFO,192.168.7.15,Application started successfully
+450,2026-02-26 23:36:00,WEB-SERVER-02,Windows Server,Application,CRITICAL,192.168.9.35,Service response time exceeded threshold
+451,2026-07-06 17:05:00,ROUTER-01,Network Device,CPU Monitoring,ERROR,192.168.8.118,CPU utilization normal
+452,2026-01-31 09:57:00,APP-SERVER-01,Linux Server,Network,INFO,192.168.9.27,Packet loss detected
+453,2026-06-09 11:36:00,WEB-SERVER-01,Windows Server,CPU Monitoring,INFO,192.168.5.233,CPU utilization normal
+454,2026-07-26 02:16:00,APP-SERVER-02,Linux Server,Memory Monitoring,INFO,192.168.3.203,Memory utilization normal
+455,2026-06-29 23:36:00,DB-SERVER-02,Database Server,Network,ERROR,192.168.1.19,Network connectivity restored
+456,2026-08-31 03:47:00,WEB-SERVER-02,Windows Server,Application,INFO,192.168.4.133,Service response time exceeded threshold
+457,2026-03-06 11:38:00,DB-SERVER-01,Database Server,System,ERROR,192.168.9.98,Disk space running low
+458,2026-06-03 05:11:00,WEB-SERVER-02,Windows Server,Authentication,ERROR,192.168.4.175,Successful user login
+459,2026-02-28 20:22:00,DB-SERVER-01,Database Server,Application,WARNING,192.168.9.166,Service response time exceeded threshold
+460,2026-03-31 16:14:00,SWITCH-01,Network Device,Authentication,WARNING,192.168.8.168,Failed login attempt
+461,2026-05-06 11:19:00,APP-SERVER-01,Linux Server,Authentication,ERROR,192.168.7.206,Password authentication failed
+462,2026-01-31 06:41:00,DB-SERVER-01,Database Server,Authentication,INFO,192.168.9.7,User account locked
+463,2026-02-26 07:28:00,DB-SERVER-02,Database Server,Application,WARNING,192.168.3.223,Application error occurred
+464,2026-05-15 13:56:00,DB-SERVER-01,Database Server,Authentication,CRITICAL,192.168.1.122,Successful user login
+465,2026-02-08 04:39:00,APP-SERVER-02,Linux Server,Authentication,WARNING,192.168.4.39,Failed login attempt
+466,2026-01-24 03:01:00,APP-SERVER-02,Linux Server,CPU Monitoring,INFO,192.168.4.37,CPU utilization normal
+467,2026-02-18 09:55:00,DB-SERVER-02,Database Server,Network,INFO,192.168.7.230,Network connectivity restored
+468,2026-07-26 05:08:00,ROUTER-01,Network Device,CPU Monitoring,WARNING,192.168.1.231,High CPU utilization detected
+469,2026-06-12 20:51:00,APP-SERVER-02,Linux Server,Network,INFO,192.168.1.187,Network connectivity restored
+470,2026-08-22 21:26:00,DB-SERVER-01,Database Server,Memory Monitoring,INFO,192.168.1.70,Memory utilization normal
+471,2026-03-28 11:12:00,APP-SERVER-01,Linux Server,Authentication,CRITICAL,192.168.6.174,User account locked
+472,2026-04-18 17:14:00,DB-SERVER-02,Database Server,System,INFO,192.168.5.102,System service restarted
+473,2026-04-25 14:53:00,APP-SERVER-01,Linux Server,Memory Monitoring,WARNING,192.168.5.209,High memory utilization detected
+474,2026-03-21 10:01:00,ROUTER-01,Network Device,Authentication,WARNING,192.168.3.160,Failed login attempt
+475,2026-06-21 09:34:00,DB-SERVER-01,Database Server,CPU Monitoring,INFO,192.168.6.128,CPU utilization normal
+476,2026-06-07 14:33:00,ROUTER-01,Network Device,Application,INFO,192.168.6.249,Application started successfully
+477,2026-02-17 23:15:00,WEB-SERVER-02,Windows Server,Application,WARNING,192.168.9.40,Database connection timeout
+478,2026-01-28 20:44:00,WEB-SERVER-02,Windows Server,Memory Monitoring,WARNING,192.168.3.185,Memory utilization normal
+479,2026-02-12 03:54:00,DB-SERVER-02,Database Server,Network,INFO,192.168.2.2,Network interface is down
+480,2026-08-10 10:10:00,WEB-SERVER-01,Windows Server,Memory Monitoring,INFO,192.168.7.38,High memory utilization detected
+481,2026-03-29 12:44:00,SWITCH-01,Network Device,Network,ERROR,192.168.2.98,Network connection established
+482,2026-05-26 11:02:00,SWITCH-01,Network Device,System,INFO,192.168.5.34,Disk space running low
+483,2026-07-17 22:30:00,ROUTER-01,Network Device,Authentication,INFO,192.168.6.2,Failed login attempt
+484,2026-06-23 21:18:00,APP-SERVER-01,Linux Server,Network,INFO,192.168.7.226,Network connectivity restored
+485,2026-03-27 21:13:00,SWITCH-01,Network Device,Authentication,INFO,192.168.7.58,Failed login attempt
+486,2026-01-05 23:32:00,SWITCH-01,Network Device,System,WARNING,192.168.10.251,System service restarted
+487,2026-01-28 18:08:00,WEB-SERVER-01,Windows Server,Network,WARNING,192.168.2.126,Network connection established
+488,2026-06-02 14:22:00,SWITCH-01,Network Device,Application,INFO,192.168.9.142,Database connection timeout
+489,2026-03-16 05:33:00,ROUTER-01,Network Device,Authentication,INFO,192.168.9.147,Successful user login
+490,2026-07-30 04:37:00,WEB-SERVER-01,Windows Server,Memory Monitoring,INFO,192.168.7.69,Memory utilization normal
+491,2026-04-24 07:45:00,SWITCH-01,Network Device,Network,ERROR,192.168.2.141,Packet loss detected
+492,2026-01-29 07:14:00,APP-SERVER-01,Linux Server,Authentication,INFO,192.168.1.142,Successful user login
+493,2026-03-16 14:58:00,APP-SERVER-01,Linux Server,System,INFO,192.168.6.100,System configuration changed
+494,2026-04-29 17:26:00,WEB-SERVER-01,Windows Server,CPU Monitoring,WARNING,192.168.7.200,High CPU utilization detected
+495,2026-04-19 16:33:00,DB-SERVER-01,Database Server,Application,INFO,192.168.9.36,Application started successfully
+496,2026-05-14 21:37:00,APP-SERVER-02,Linux Server,Application,INFO,192.168.5.22,Application started successfully
+497,2026-01-28 08:49:00,WEB-SERVER-01,Windows Server,CPU Monitoring,INFO,192.168.1.29,CPU utilization normal
+498,2026-01-02 01:05:00,APP-SERVER-02,Linux Server,Memory Monitoring,CRITICAL,192.168.9.129,Memory utilization normal
+499,2026-03-21 18:48:00,DB-SERVER-01,Database Server,System,INFO,192.168.9.116,System configuration changed
+500,2026-01-21 15:19:00,SWITCH-01,Network Device,System,INFO,192.168.8.102,Disk space running low
+501,2026-01-31 20:14:00,ROUTER-01,Network Device,Application,INFO,192.168.7.67,Database connection timeout
+502,2026-06-04 06:30:00,WEB-SERVER-02,Windows Server,Authentication,INFO,192.168.9.106,Failed login attempt
+503,2026-08-12 19:03:00,SWITCH-01,Network Device,Authentication,INFO,192.168.5.204,User account locked
+504,2026-01-09 20:30:00,WEB-SERVER-02,Windows Server,System,WARNING,192.168.6.77,Disk space running low
+505,2026-01-15 00:43:00,SWITCH-01,Network Device,Memory Monitoring,WARNING,192.168.3.5,Memory utilization normal
+506,2026-05-29 08:26:00,DB-SERVER-02,Database Server,Application,INFO,192.168.10.193,Application started successfully
+507,2026-01-30 08:45:00,DB-SERVER-02,Database Server,CPU Monitoring,ERROR,192.168.5.95,CPU utilization normal
+508,2026-07-02 15:20:00,WEB-SERVER-02,Windows Server,Memory Monitoring,INFO,192.168.6.98,Memory utilization exceeded threshold
+509,2026-02-04 07:41:00,APP-SERVER-02,Linux Server,System,INFO,192.168.2.252,System service restarted
+510,2026-05-24 12:19:00,DB-SERVER-02,Database Server,Application,INFO,192.168.6.177,Database connection timeout
+511,2026-02-13 14:42:00,SWITCH-01,Network Device,Application,INFO,192.168.10.98,Database connection timeout
+512,2026-07-02 10:41:00,WEB-SERVER-01,Windows Server,Network,INFO,192.168.3.95,Packet loss detected
+513,2026-07-14 20:29:00,APP-SERVER-02,Linux Server,CPU Monitoring,WARNING,192.168.4.238,CPU utilization normal
+514,2026-08-24 18:03:00,ROUTER-01,Network Device,System,INFO,192.168.4.39,System configuration changed
+515,2026-08-12 17:45:00,APP-SERVER-01,Linux Server,System,WARNING,192.168.4.124,System service restarted
+516,2026-02-06 17:07:00,APP-SERVER-02,Linux Server,Application,WARNING,192.168.6.236,Application error occurred
+517,2026-08-20 11:33:00,WEB-SERVER-02,Windows Server,CPU Monitoring,INFO,192.168.8.198,High CPU utilization detected
+518,2026-02-04 08:57:00,APP-SERVER-01,Linux Server,Application,INFO,192.168.3.248,Service response time exceeded threshold
+519,2026-08-22 11:29:00,APP-SERVER-01,Linux Server,System,INFO,192.168.10.66,System startup completed
+520,2026-07-22 01:43:00,DB-SERVER-02,Database Server,Memory Monitoring,INFO,192.168.9.88,Memory utilization exceeded threshold
+521,2026-08-22 12:19:00,SWITCH-01,Network Device,System,INFO,192.168.1.223,System startup completed
+522,2026-08-13 12:25:00,ROUTER-01,Network Device,Memory Monitoring,WARNING,192.168.5.80,High memory utilization detected
+523,2026-05-07 15:36:00,WEB-SERVER-02,Windows Server,Authentication,WARNING,192.168.4.27,Password authentication failed
+524,2026-05-18 15:06:00,APP-SERVER-01,Linux Server,Network,WARNING,192.168.8.118,Network interface is down
+525,2026-06-13 00:25:00,SWITCH-01,Network Device,Memory Monitoring,INFO,192.168.5.105,High memory utilization detected
+526,2026-01-28 13:46:00,DB-SERVER-02,Database Server,CPU Monitoring,INFO,192.168.5.1,CPU utilization normal
+527,2026-04-02 20:53:00,ROUTER-01,Network Device,Memory Monitoring,INFO,192.168.9.148,High memory utilization detected
+528,2026-01-13 13:59:00,SWITCH-01,Network Device,Memory Monitoring,INFO,192.168.7.125,High memory utilization detected
+529,2026-02-15 07:54:00,DB-SERVER-02,Database Server,System,INFO,192.168.10.157,System service restarted
+530,2026-04-01 18:25:00,WEB-SERVER-01,Windows Server,Memory Monitoring,INFO,192.168.5.51,Memory utilization exceeded threshold
+531,2026-05-02 09:20:00,WEB-SERVER-01,Windows Server,System,INFO,192.168.1.197,System configuration changed
+532,2026-01-23 10:31:00,WEB-SERVER-01,Windows Server,Application,INFO,192.168.3.25,Service response time exceeded threshold
+533,2026-08-30 13:10:00,WEB-SERVER-01,Windows Server,System,INFO,192.168.6.37,System service restarted
+534,2026-07-19 11:51:00,ROUTER-01,Network Device,CPU Monitoring,INFO,192.168.3.160,High CPU utilization detected
+535,2026-04-15 01:36:00,SWITCH-01,Network Device,CPU Monitoring,INFO,192.168.6.138,CPU utilization normal
+536,2026-04-10 23:56:00,DB-SERVER-01,Database Server,Authentication,ERROR,192.168.6.1,Failed login attempt
+537,2026-05-25 03:30:00,DB-SERVER-01,Database Server,Memory Monitoring,WARNING,192.168.9.72,High memory utilization detected
+538,2026-01-13 05:27:00,DB-SERVER-02,Database Server,Memory Monitoring,ERROR,192.168.2.251,High memory utilization detected
+539,2026-08-24 11:17:00,WEB-SERVER-01,Windows Server,CPU Monitoring,WARNING,192.168.8.97,CPU utilization normal
+540,2026-08-16 17:13:00,DB-SERVER-01,Database Server,System,INFO,192.168.4.242,System service restarted
+541,2026-05-06 01:51:00,DB-SERVER-01,Database Server,Network,WARNING,192.168.3.167,Network connection established
+542,2026-03-08 22:48:00,DB-SERVER-02,Database Server,Memory Monitoring,WARNING,192.168.3.75,High memory utilization detected
+543,2026-04-27 19:13:00,WEB-SERVER-01,Windows Server,Authentication,INFO,192.168.9.97,Failed login attempt
+544,2026-08-22 22:12:00,ROUTER-01,Network Device,CPU Monitoring,INFO,192.168.7.228,CPU utilization normal
+545,2026-03-01 07:37:00,WEB-SERVER-01,Windows Server,Authentication,INFO,192.168.7.187,Successful user login
+546,2026-04-10 10:48:00,APP-SERVER-02,Linux Server,Memory Monitoring,INFO,192.168.3.108,Memory utilization exceeded threshold
+547,2026-04-28 09:36:00,DB-SERVER-01,Database Server,Memory Monitoring,ERROR,192.168.1.231,Memory utilization normal
+548,2026-05-17 09:05:00,SWITCH-01,Network Device,Authentication,INFO,192.168.7.131,Password authentication failed
+549,2026-04-23 19:00:00,SWITCH-01,Network Device,Application,INFO,192.168.3.73,Database connection timeout
+550,2026-06-10 14:56:00,WEB-SERVER-02,Windows Server,Memory Monitoring,INFO,192.168.1.238,Memory utilization exceeded threshold
+551,2026-08-31 06:32:00,DB-SERVER-01,Database Server,Application,WARNING,192.168.6.17,Application started successfully
+552,2026-07-08 04:36:00,WEB-SERVER-02,Windows Server,Authentication,INFO,192.168.3.249,User account locked
+553,2026-04-30 02:57:00,WEB-SERVER-02,Windows Server,Authentication,WARNING,192.168.9.65,Password authentication failed
+554,2026-06-07 05:15:00,WEB-SERVER-02,Windows Server,Application,WARNING,192.168.5.216,Service response time exceeded threshold
+555,2026-04-18 16:48:00,ROUTER-01,Network Device,CPU Monitoring,INFO,192.168.4.173,CPU utilization exceeded threshold
+556,2026-01-28 18:49:00,WEB-SERVER-02,Windows Server,Network,WARNING,192.168.7.22,Packet loss detected
+557,2026-08-08 14:47:00,SWITCH-01,Network Device,Network,INFO,192.168.5.183,Network interface is down
+558,2026-08-21 17:08:00,DB-SERVER-01,Database Server,CPU Monitoring,INFO,192.168.1.136,CPU utilization normal
+559,2026-04-25 21:23:00,DB-SERVER-02,Database Server,Application,ERROR,192.168.3.167,Application error occurred
+560,2026-02-01 15:52:00,WEB-SERVER-01,Windows Server,Application,INFO,192.168.1.155,Application error occurred
+561,2026-04-24 02:02:00,ROUTER-01,Network Device,Application,CRITICAL,192.168.10.250,Application started successfully
+562,2026-05-28 11:53:00,DB-SERVER-02,Database Server,CPU Monitoring,INFO,192.168.5.27,High CPU utilization detected
+563,2026-07-28 18:06:00,ROUTER-01,Network Device,CPU Monitoring,WARNING,192.168.5.12,High CPU utilization detected
+564,2026-04-06 07:55:00,ROUTER-01,Network Device,Application,INFO,192.168.4.214,Service response time exceeded threshold
+565,2026-01-08 10:42:00,DB-SERVER-02,Database Server,Memory Monitoring,INFO,192.168.2.228,Memory utilization exceeded threshold
+566,2026-03-06 02:47:00,DB-SERVER-01,Database Server,Authentication,WARNING,192.168.7.116,Failed login attempt
+567,2026-08-04 22:54:00,WEB-SERVER-01,Windows Server,Authentication,INFO,192.168.1.184,Failed login attempt
+568,2026-05-15 05:52:00,APP-SERVER-01,Linux Server,Application,WARNING,192.168.10.239,Application started successfully
+569,2026-05-23 15:25:00,WEB-SERVER-01,Windows Server,CPU Monitoring,INFO,192.168.3.120,CPU utilization normal
+570,2026-05-29 17:58:00,SWITCH-01,Network Device,Authentication,INFO,192.168.1.89,Successful user login
+571,2026-03-21 22:04:00,ROUTER-01,Network Device,System,WARNING,192.168.10.108,System configuration changed
+572,2026-02-15 09:57:00,APP-SERVER-02,Linux Server,CPU Monitoring,INFO,192.168.4.200,High CPU utilization detected
+573,2026-01-29 13:02:00,DB-SERVER-01,Database Server,Network,INFO,192.168.8.193,Network interface is down
+574,2026-03-21 21:11:00,WEB-SERVER-02,Windows Server,Application,INFO,192.168.3.54,Application started successfully
+575,2026-06-20 10:36:00,DB-SERVER-02,Database Server,System,INFO,192.168.4.250,System service restarted
+576,2026-01-15 05:06:00,APP-SERVER-02,Linux Server,Network,WARNING,192.168.3.24,Network connectivity restored
+577,2026-01-17 07:32:00,APP-SERVER-02,Linux Server,Authentication,WARNING,192.168.2.38,User account locked
+578,2026-07-17 23:24:00,ROUTER-01,Network Device,Memory Monitoring,WARNING,192.168.9.78,Memory utilization normal
+579,2026-05-19 07:37:00,WEB-SERVER-01,Windows Server,CPU Monitoring,WARNING,192.168.5.210,CPU utilization normal
+580,2026-01-31 11:47:00,ROUTER-01,Network Device,Network,INFO,192.168.3.64,Network interface is down
+581,2026-03-25 12:27:00,APP-SERVER-02,Linux Server,CPU Monitoring,INFO,192.168.2.227,High CPU utilization detected
+582,2026-02-11 11:40:00,ROUTER-01,Network Device,Application,INFO,192.168.9.176,Service response time exceeded threshold
+583,2026-07-05 12:16:00,DB-SERVER-02,Database Server,Authentication,ERROR,192.168.6.242,User account locked
+584,2026-01-28 04:37:00,WEB-SERVER-02,Windows Server,Authentication,INFO,192.168.4.100,Password authentication failed
+585,2026-06-05 05:27:00,APP-SERVER-01,Linux Server,Network,INFO,192.168.6.123,Network interface is down
+586,2026-08-21 09:22:00,WEB-SERVER-02,Windows Server,System,WARNING,192.168.5.178,System configuration changed
+587,2026-03-25 01:40:00,WEB-SERVER-02,Windows Server,System,ERROR,192.168.10.47,System configuration changed
+588,2026-07-12 20:38:00,WEB-SERVER-01,Windows Server,Authentication,WARNING,192.168.5.60,Password authentication failed
+589,2026-03-26 01:17:00,DB-SERVER-01,Database Server,Memory Monitoring,INFO,192.168.7.135,Memory utilization normal
+590,2026-03-04 13:12:00,ROUTER-01,Network Device,CPU Monitoring,INFO,192.168.10.83,CPU utilization exceeded threshold
+591,2026-03-13 03:07:00,WEB-SERVER-01,Windows Server,CPU Monitoring,INFO,192.168.7.189,High CPU utilization detected
+592,2026-02-23 18:53:00,SWITCH-01,Network Device,CPU Monitoring,INFO,192.168.8.68,CPU utilization normal
+593,2026-06-04 07:39:00,SWITCH-01,Network Device,Authentication,WARNING,192.168.3.35,Failed login attempt
+594,2026-04-30 08:08:00,WEB-SERVER-01,Windows Server,Memory Monitoring,INFO,192.168.1.35,Memory utilization normal
+595,2026-08-21 06:29:00,APP-SERVER-01,Linux Server,Authentication,INFO,192.168.1.58,Failed login attempt
+596,2026-06-16 12:13:00,ROUTER-01,Network Device,Authentication,INFO,192.168.7.149,Failed login attempt
+597,2026-05-02 05:26:00,DB-SERVER-01,Database Server,Network,INFO,192.168.6.46,Network interface is down
+598,2026-07-23 07:28:00,APP-SERVER-02,Linux Server,Authentication,INFO,192.168.2.84,Failed login attempt
+599,2026-08-30 04:49:00,WEB-SERVER-01,Windows Server,Application,INFO,192.168.6.152,Application error occurred
+600,2026-04-14 20:18:00,APP-SERVER-01,Linux Server,CPU Monitoring,INFO,192.168.9.198,CPU utilization normal
+601,2026-04-03 08:35:00,WEB-SERVER-01,Windows Server,System,INFO,192.168.2.135,System startup completed
+602,2026-01-26 15:01:00,WEB-SERVER-01,Windows Server,CPU Monitoring,INFO,192.168.9.244,CPU utilization normal
+603,2026-07-02 09:32:00,SWITCH-01,Network Device,CPU Monitoring,WARNING,192.168.10.11,CPU utilization normal
+604,2026-06-11 17:42:00,DB-SERVER-02,Database Server,System,INFO,192.168.7.205,Disk space running low
+605,2026-08-08 08:37:00,SWITCH-01,Network Device,Authentication,ERROR,192.168.6.32,Failed login attempt
+606,2026-08-07 04:42:00,DB-SERVER-02,Database Server,System,INFO,192.168.1.49,System service restarted
+607,2026-06-07 23:08:00,APP-SERVER-01,Linux Server,Authentication,INFO,192.168.2.193,Successful user login
+608,2026-07-27 14:41:00,ROUTER-01,Network Device,Network,INFO,192.168.4.22,Packet loss detected
+609,2026-07-31 00:09:00,DB-SERVER-02,Database Server,Application,WARNING,192.168.4.169,Application started successfully
+610,2026-06-30 06:45:00,DB-SERVER-02,Database Server,System,WARNING,192.168.4.89,System service restarted
+611,2026-04-14 21:40:00,WEB-SERVER-02,Windows Server,Authentication,INFO,192.168.8.131,Successful user login
+612,2026-07-02 14:38:00,DB-SERVER-02,Database Server,Application,INFO,192.168.7.52,Service response time exceeded threshold
+613,2026-02-21 16:45:00,DB-SERVER-01,Database Server,System,INFO,192.168.2.154,System service restarted
+614,2026-01-22 10:15:00,DB-SERVER-02,Database Server,System,INFO,192.168.5.224,System startup completed
+615,2026-07-19 04:19:00,ROUTER-01,Network Device,Memory Monitoring,INFO,192.168.1.82,High memory utilization detected
+616,2026-03-25 10:01:00,WEB-SERVER-01,Windows Server,Memory Monitoring,INFO,192.168.6.171,Memory utilization normal
+617,2026-08-29 03:46:00,APP-SERVER-02,Linux Server,Application,WARNING,192.168.6.73,Application error occurred
+618,2026-03-10 19:09:00,APP-SERVER-01,Linux Server,CPU Monitoring,INFO,192.168.4.8,CPU utilization exceeded threshold
+619,2026-07-20 23:09:00,WEB-SERVER-02,Windows Server,Authentication,WARNING,192.168.10.92,Successful user login
+620,2026-07-18 18:19:00,DB-SERVER-01,Database Server,System,INFO,192.168.10.114,System service restarted
+621,2026-03-05 19:24:00,ROUTER-01,Network Device,Network,WARNING,192.168.10.156,Network connectivity restored
+622,2026-08-12 01:58:00,APP-SERVER-01,Linux Server,System,INFO,192.168.8.49,System startup completed
+623,2026-02-18 06:36:00,SWITCH-01,Network Device,Application,INFO,192.168.3.28,Application started successfully
+624,2026-01-26 02:07:00,WEB-SERVER-02,Windows Server,System,INFO,192.168.2.247,System startup completed
+625,2026-05-26 23:07:00,WEB-SERVER-01,Windows Server,Application,INFO,192.168.10.221,Service response time exceeded threshold
+626,2026-06-06 14:05:00,SWITCH-01,Network Device,System,INFO,192.168.4.60,Disk space running low
+627,2026-05-26 01:54:00,DB-SERVER-02,Database Server,CPU Monitoring,INFO,192.168.4.148,CPU utilization exceeded threshold
+628,2026-08-25 23:55:00,SWITCH-01,Network Device,Memory Monitoring,WARNING,192.168.3.44,Memory utilization normal
+629,2026-08-04 09:18:00,WEB-SERVER-02,Windows Server,System,ERROR,192.168.5.170,Disk space running low
+630,2026-01-12 12:32:00,SWITCH-01,Network Device,Memory Monitoring,WARNING,192.168.1.27,High memory utilization detected
+631,2026-06-19 21:24:00,DB-SERVER-01,Database Server,Authentication,WARNING,192.168.1.188,User account locked
+632,2026-01-25 07:33:00,SWITCH-01,Network Device,Network,INFO,192.168.2.243,Network interface is down
+633,2026-04-15 08:04:00,DB-SERVER-01,Database Server,CPU Monitoring,INFO,192.168.4.74,CPU utilization normal
+634,2026-06-17 09:02:00,APP-SERVER-02,Linux Server,CPU Monitoring,INFO,192.168.7.198,CPU utilization exceeded threshold
+635,2026-07-12 03:07:00,ROUTER-01,Network Device,Authentication,INFO,192.168.4.203,User account locked
+636,2026-06-22 03:37:00,WEB-SERVER-01,Windows Server,System,WARNING,192.168.9.209,System startup completed
+637,2026-06-13 23:43:00,WEB-SERVER-02,Windows Server,System,WARNING,192.168.6.243,System configuration changed
+638,2026-07-04 21:54:00,WEB-SERVER-02,Windows Server,Application,INFO,192.168.3.142,Application error occurred
+639,2026-06-05 00:54:00,APP-SERVER-02,Linux Server,Memory Monitoring,INFO,192.168.3.186,Memory utilization exceeded threshold
+640,2026-06-25 10:47:00,ROUTER-01,Network Device,Memory Monitoring,WARNING,192.168.9.141,High memory utilization detected
+641,2026-04-17 12:39:00,DB-SERVER-02,Database Server,Authentication,ERROR,192.168.7.180,Failed login attempt
+642,2026-07-05 01:35:00,APP-SERVER-02,Linux Server,Network,INFO,192.168.8.113,Network interface is down
+643,2026-07-09 23:09:00,DB-SERVER-01,Database Server,CPU Monitoring,WARNING,192.168.4.166,CPU utilization exceeded threshold
+644,2026-07-26 09:32:00,DB-SERVER-01,Database Server,Network,INFO,192.168.10.106,Network connection established
+645,2026-03-28 22:32:00,SWITCH-01,Network Device,CPU Monitoring,INFO,192.168.7.62,CPU utilization exceeded threshold
+646,2026-08-30 15:10:00,WEB-SERVER-01,Windows Server,System,INFO,192.168.6.23,System configuration changed
+647,2026-06-04 22:02:00,DB-SERVER-01,Database Server,Memory Monitoring,WARNING,192.168.4.73,High memory utilization detected
+648,2026-08-05 22:37:00,DB-SERVER-02,Database Server,CPU Monitoring,ERROR,192.168.6.71,High CPU utilization detected
+649,2026-03-31 00:06:00,DB-SERVER-02,Database Server,CPU Monitoring,WARNING,192.168.7.150,High CPU utilization detected
+650,2026-05-04 21:01:00,WEB-SERVER-01,Windows Server,CPU Monitoring,INFO,192.168.2.99,CPU utilization exceeded threshold
+651,2026-04-04 02:47:00,DB-SERVER-02,Database Server,Memory Monitoring,ERROR,192.168.2.148,Memory utilization exceeded threshold
+652,2026-02-07 05:21:00,ROUTER-01,Network Device,Network,INFO,192.168.7.191,Network connection established
+653,2026-02-06 16:38:00,ROUTER-01,Network Device,Network,CRITICAL,192.168.7.165,Packet loss detected
+654,2026-03-05 17:17:00,ROUTER-01,Network Device,Network,INFO,192.168.8.172,Network connectivity restored
+655,2026-01-06 21:02:00,APP-SERVER-01,Linux Server,Network,INFO,192.168.1.204,Network connection established
+656,2026-03-12 12:34:00,DB-SERVER-01,Database Server,System,WARNING,192.168.6.140,Disk space running low
+657,2026-03-13 14:19:00,DB-SERVER-01,Database Server,Memory Monitoring,INFO,192.168.8.32,Memory utilization normal
+658,2026-01-08 05:08:00,WEB-SERVER-02,Windows Server,Network,CRITICAL,192.168.10.184,Network connectivity restored
+659,2026-03-02 00:32:00,SWITCH-01,Network Device,Network,WARNING,192.168.3.143,Network interface is down
+660,2026-06-18 11:33:00,APP-SERVER-01,Linux Server,Authentication,WARNING,192.168.4.246,Successful user login
+661,2026-05-14 09:38:00,WEB-SERVER-01,Windows Server,System,WARNING,192.168.2.252,System service restarted
+662,2026-08-18 02:48:00,SWITCH-01,Network Device,Memory Monitoring,INFO,192.168.5.240,Memory utilization exceeded threshold
+663,2026-01-22 22:38:00,DB-SERVER-01,Database Server,Authentication,INFO,192.168.2.168,Failed login attempt
+664,2026-07-15 13:06:00,APP-SERVER-02,Linux Server,System,INFO,192.168.8.105,System configuration changed
+665,2026-03-08 08:25:00,WEB-SERVER-01,Windows Server,System,INFO,192.168.3.7,System service restarted
+666,2026-07-28 22:32:00,WEB-SERVER-02,Windows Server,System,WARNING,192.168.8.26,Disk space running low
+667,2026-08-28 09:04:00,DB-SERVER-01,Database Server,Network,INFO,192.168.10.213,Packet loss detected
+668,2026-04-03 22:01:00,APP-SERVER-02,Linux Server,Memory Monitoring,WARNING,192.168.2.198,High memory utilization detected
+669,2026-07-30 07:00:00,WEB-SERVER-02,Windows Server,CPU Monitoring,INFO,192.168.10.13,CPU utilization normal
+670,2026-06-22 09:03:00,DB-SERVER-02,Database Server,CPU Monitoring,INFO,192.168.7.218,High CPU utilization detected
+671,2026-02-21 10:59:00,APP-SERVER-02,Linux Server,Memory Monitoring,INFO,192.168.8.252,Memory utilization exceeded threshold
+672,2026-04-03 02:37:00,DB-SERVER-02,Database Server,Network,WARNING,192.168.2.98,Network connection established
+673,2026-03-13 12:23:00,SWITCH-01,Network Device,Network,INFO,192.168.7.149,Packet loss detected
+674,2026-07-20 09:30:00,DB-SERVER-02,Database Server,Memory Monitoring,WARNING,192.168.10.184,Memory utilization normal
+675,2026-02-21 22:29:00,WEB-SERVER-02,Windows Server,System,CRITICAL,192.168.2.50,System startup completed
+676,2026-06-18 07:01:00,APP-SERVER-02,Linux Server,Authentication,INFO,192.168.10.5,User account locked
+677,2026-07-05 00:26:00,WEB-SERVER-01,Windows Server,Authentication,WARNING,192.168.7.37,Successful user login
+678,2026-04-27 06:45:00,SWITCH-01,Network Device,Application,WARNING,192.168.3.109,Application started successfully
+679,2026-04-19 16:54:00,ROUTER-01,Network Device,CPU Monitoring,WARNING,192.168.4.238,CPU utilization exceeded threshold
+680,2026-06-22 01:00:00,WEB-SERVER-02,Windows Server,Network,INFO,192.168.8.199,Packet loss detected
+681,2026-07-06 19:28:00,WEB-SERVER-01,Windows Server,Authentication,INFO,192.168.9.195,Password authentication failed
+682,2026-03-07 10:56:00,SWITCH-01,Network Device,CPU Monitoring,INFO,192.168.6.117,High CPU utilization detected
+683,2026-03-23 06:08:00,ROUTER-01,Network Device,Authentication,INFO,192.168.8.223,Password authentication failed
+684,2026-06-30 17:08:00,SWITCH-01,Network Device,Application,INFO,192.168.2.235,Application error occurred
+685,2026-01-13 00:29:00,ROUTER-01,Network Device,Network,INFO,192.168.3.157,Packet loss detected
+686,2026-06-04 19:47:00,ROUTER-01,Network Device,System,INFO,192.168.8.218,System configuration changed
+687,2026-06-13 05:43:00,DB-SERVER-01,Database Server,Authentication,ERROR,192.168.10.168,User account locked
+688,2026-06-20 11:45:00,APP-SERVER-02,Linux Server,Memory Monitoring,INFO,192.168.8.202,Memory utilization exceeded threshold
+689,2026-04-24 18:02:00,ROUTER-01,Network Device,Authentication,INFO,192.168.7.69,Failed login attempt
+690,2026-02-17 00:07:00,WEB-SERVER-02,Windows Server,CPU Monitoring,INFO,192.168.2.39,CPU utilization normal
+691,2026-01-21 07:35:00,APP-SERVER-01,Linux Server,Network,INFO,192.168.3.64,Network interface is down
+692,2026-06-27 08:11:00,DB-SERVER-02,Database Server,Memory Monitoring,WARNING,192.168.9.202,Memory utilization normal
+693,2026-07-16 04:19:00,WEB-SERVER-01,Windows Server,Network,WARNING,192.168.1.141,Packet loss detected
+694,2026-08-20 21:28:00,APP-SERVER-01,Linux Server,Network,INFO,192.168.2.36,Network connection established
+695,2026-08-02 00:05:00,APP-SERVER-01,Linux Server,CPU Monitoring,CRITICAL,192.168.8.25,CPU utilization exceeded threshold
+696,2026-05-22 05:33:00,ROUTER-01,Network Device,Network,INFO,192.168.2.85,Network connection established
+697,2026-03-23 18:36:00,APP-SERVER-01,Linux Server,Authentication,INFO,192.168.2.28,User account locked
+698,2026-05-21 08:21:00,SWITCH-01,Network Device,Network,ERROR,192.168.4.144,Network interface is down
+699,2026-01-21 01:07:00,APP-SERVER-01,Linux Server,Memory Monitoring,INFO,192.168.9.165,High memory utilization detected
+700,2026-01-10 04:17:00,WEB-SERVER-01,Windows Server,Memory Monitoring,INFO,192.168.5.244,Memory utilization normal
+701,2026-07-03 23:57:00,SWITCH-01,Network Device,System,INFO,192.168.5.192,System service restarted
+702,2026-08-19 21:44:00,WEB-SERVER-01,Windows Server,Memory Monitoring,INFO,192.168.8.105,Memory utilization exceeded threshold
+703,2026-01-13 13:47:00,WEB-SERVER-02,Windows Server,Memory Monitoring,WARNING,192.168.6.99,Memory utilization exceeded threshold
+704,2026-05-26 23:54:00,WEB-SERVER-02,Windows Server,Memory Monitoring,INFO,192.168.3.209,Memory utilization normal
+705,2026-04-24 06:35:00,APP-SERVER-02,Linux Server,Application,WARNING,192.168.4.63,Application error occurred
+706,2026-04-06 13:17:00,WEB-SERVER-01,Windows Server,Network,INFO,192.168.6.29,Network interface is down
+707,2026-08-05 10:01:00,DB-SERVER-01,Database Server,Authentication,WARNING,192.168.9.107,User account locked
+708,2026-02-21 02:59:00,APP-SERVER-01,Linux Server,Memory Monitoring,INFO,192.168.6.31,Memory utilization normal
+709,2026-06-08 22:47:00,DB-SERVER-02,Database Server,Authentication,ERROR,192.168.2.137,Failed login attempt
+710,2026-08-10 18:28:00,SWITCH-01,Network Device,Memory Monitoring,INFO,192.168.10.13,Memory utilization normal
+711,2026-05-20 08:56:00,DB-SERVER-01,Database Server,CPU Monitoring,INFO,192.168.9.3,CPU utilization exceeded threshold
+712,2026-08-22 05:23:00,APP-SERVER-01,Linux Server,Network,ERROR,192.168.3.15,Network connection established
+713,2026-01-17 05:46:00,SWITCH-01,Network Device,System,INFO,192.168.6.4,Disk space running low
+714,2026-07-21 18:33:00,APP-SERVER-02,Linux Server,Application,INFO,192.168.4.72,Application started successfully
+715,2026-08-26 03:20:00,APP-SERVER-02,Linux Server,Memory Monitoring,WARNING,192.168.7.102,Memory utilization exceeded threshold
+716,2026-03-11 09:16:00,APP-SERVER-01,Linux Server,Authentication,INFO,192.168.8.130,Failed login attempt
+717,2026-04-25 01:29:00,DB-SERVER-02,Database Server,System,WARNING,192.168.6.187,System startup completed
+718,2026-01-09 10:42:00,DB-SERVER-02,Database Server,System,INFO,192.168.8.253,Disk space running low
+719,2026-03-30 17:11:00,APP-SERVER-01,Linux Server,Network,INFO,192.168.1.247,Packet loss detected
+720,2026-08-14 08:54:00,APP-SERVER-02,Linux Server,Memory Monitoring,WARNING,192.168.5.208,High memory utilization detected
+721,2026-07-25 02:44:00,ROUTER-01,Network Device,CPU Monitoring,ERROR,192.168.10.74,High CPU utilization detected
+722,2026-01-08 01:43:00,SWITCH-01,Network Device,Authentication,INFO,192.168.4.176,Failed login attempt
+723,2026-03-28 03:09:00,WEB-SERVER-01,Windows Server,Application,CRITICAL,192.168.7.90,Database connection timeout
+724,2026-01-02 21:24:00,DB-SERVER-01,Database Server,System,INFO,192.168.10.180,System service restarted
+725,2026-06-19 04:15:00,APP-SERVER-01,Linux Server,Application,ERROR,192.168.4.217,Database connection timeout
+726,2026-04-25 22:27:00,APP-SERVER-02,Linux Server,Memory Monitoring,INFO,192.168.6.35,Memory utilization exceeded threshold
+727,2026-02-11 04:56:00,APP-SERVER-02,Linux Server,Authentication,WARNING,192.168.4.44,Failed login attempt
+728,2026-07-12 04:38:00,WEB-SERVER-01,Windows Server,Authentication,ERROR,192.168.8.231,User account locked
+729,2026-07-12 15:33:00,WEB-SERVER-01,Windows Server,Application,ERROR,192.168.5.87,Service response time exceeded threshold
+730,2026-05-24 20:25:00,WEB-SERVER-01,Windows Server,Application,INFO,192.168.3.69,Application error occurred
+731,2026-04-04 09:26:00,APP-SERVER-01,Linux Server,Memory Monitoring,INFO,192.168.1.213,Memory utilization exceeded threshold
+732,2026-01-07 01:35:00,SWITCH-01,Network Device,Memory Monitoring,WARNING,192.168.7.248,Memory utilization exceeded threshold
+733,2026-06-27 07:21:00,WEB-SERVER-02,Windows Server,System,INFO,192.168.3.244,System service restarted
+734,2026-06-10 07:22:00,APP-SERVER-01,Linux Server,System,INFO,192.168.6.161,System service restarted
+735,2026-05-19 17:04:00,DB-SERVER-02,Database Server,Memory Monitoring,INFO,192.168.1.131,High memory utilization detected
+736,2026-03-19 15:30:00,ROUTER-01,Network Device,Network,CRITICAL,192.168.3.156,Network interface is down
+737,2026-04-02 22:01:00,WEB-SERVER-01,Windows Server,Application,INFO,192.168.2.31,Database connection timeout
+738,2026-04-23 03:34:00,ROUTER-01,Network Device,Network,INFO,192.168.1.38,Network connectivity restored
+739,2026-06-21 16:29:00,WEB-SERVER-01,Windows Server,CPU Monitoring,INFO,192.168.9.144,CPU utilization exceeded threshold
+740,2026-03-03 02:02:00,ROUTER-01,Network Device,CPU Monitoring,INFO,192.168.5.201,CPU utilization normal
+741,2026-01-11 22:52:00,ROUTER-01,Network Device,CPU Monitoring,ERROR,192.168.2.158,CPU utilization normal
+742,2026-04-16 09:53:00,WEB-SERVER-01,Windows Server,System,WARNING,192.168.4.237,System startup completed
+743,2026-06-17 04:32:00,DB-SERVER-02,Database Server,Application,WARNING,192.168.8.158,Application started successfully
+744,2026-07-30 02:08:00,ROUTER-01,Network Device,System,INFO,192.168.10.42,System service restarted
+745,2026-08-24 12:27:00,ROUTER-01,Network Device,Memory Monitoring,INFO,192.168.1.110,Memory utilization exceeded threshold
+746,2026-03-12 05:51:00,APP-SERVER-01,Linux Server,CPU Monitoring,ERROR,192.168.8.56,CPU utilization normal
+747,2026-03-29 00:27:00,WEB-SERVER-02,Windows Server,System,INFO,192.168.4.218,System service restarted
+748,2026-04-07 14:01:00,DB-SERVER-02,Database Server,CPU Monitoring,WARNING,192.168.7.254,CPU utilization normal
+749,2026-06-22 18:27:00,DB-SERVER-01,Database Server,Authentication,INFO,192.168.6.96,Failed login attempt
+750,2026-03-23 20:36:00,DB-SERVER-01,Database Server,CPU Monitoring,ERROR,192.168.5.201,CPU utilization normal
+751,2026-05-06 03:17:00,WEB-SERVER-02,Windows Server,Network,INFO,192.168.2.141,Network connection established
+752,2026-02-05 16:07:00,APP-SERVER-02,Linux Server,System,WARNING,192.168.7.7,System configuration changed
+753,2026-06-27 05:04:00,SWITCH-01,Network Device,Authentication,WARNING,192.168.8.148,Failed login attempt
+754,2026-08-29 18:58:00,SWITCH-01,Network Device,System,CRITICAL,192.168.2.242,System startup completed
+755,2026-02-21 16:47:00,SWITCH-01,Network Device,CPU Monitoring,INFO,192.168.1.47,CPU utilization exceeded threshold
+756,2026-01-02 04:03:00,ROUTER-01,Network Device,System,INFO,192.168.4.23,System service restarted
+757,2026-08-08 04:18:00,APP-SERVER-01,Linux Server,Memory Monitoring,INFO,192.168.4.182,Memory utilization normal
+758,2026-01-20 00:55:00,DB-SERVER-02,Database Server,System,INFO,192.168.9.250,System service restarted
+759,2026-06-09 16:42:00,WEB-SERVER-02,Windows Server,Application,INFO,192.168.4.115,Application started successfully
+760,2026-04-14 03:44:00,DB-SERVER-01,Database Server,CPU Monitoring,INFO,192.168.7.196,CPU utilization exceeded threshold
+761,2026-08-20 05:46:00,APP-SERVER-01,Linux Server,System,INFO,192.168.6.92,System startup completed
+762,2026-04-06 09:45:00,APP-SERVER-02,Linux Server,System,ERROR,192.168.9.158,System service restarted
+763,2026-01-20 15:16:00,DB-SERVER-01,Database Server,Network,INFO,192.168.7.159,Packet loss detected
+764,2026-08-01 03:34:00,APP-SERVER-02,Linux Server,CPU Monitoring,WARNING,192.168.7.67,High CPU utilization detected
+765,2026-05-13 14:44:00,APP-SERVER-01,Linux Server,Memory Monitoring,INFO,192.168.5.198,High memory utilization detected
+766,2026-03-22 14:04:00,WEB-SERVER-02,Windows Server,Network,WARNING,192.168.2.241,Network interface is down
+767,2026-05-21 16:12:00,WEB-SERVER-01,Windows Server,Memory Monitoring,ERROR,192.168.1.179,Memory utilization normal
+768,2026-07-08 10:30:00,APP-SERVER-01,Linux Server,System,CRITICAL,192.168.4.106,Disk space running low
+769,2026-08-25 09:20:00,DB-SERVER-01,Database Server,Application,INFO,192.168.3.39,Service response time exceeded threshold
+770,2026-01-13 23:32:00,APP-SERVER-01,Linux Server,Network,INFO,192.168.4.138,Network connectivity restored
+771,2026-05-05 03:25:00,WEB-SERVER-02,Windows Server,Network,WARNING,192.168.9.113,Network connectivity restored
+772,2026-08-18 20:04:00,WEB-SERVER-02,Windows Server,CPU Monitoring,INFO,192.168.7.221,High CPU utilization detected
+773,2026-03-12 06:53:00,APP-SERVER-02,Linux Server,Network,INFO,192.168.2.171,Packet loss detected
+774,2026-03-13 22:50:00,APP-SERVER-01,Linux Server,Application,INFO,192.168.7.56,Service response time exceeded threshold
+775,2026-07-07 14:09:00,DB-SERVER-01,Database Server,System,INFO,192.168.2.14,System service restarted
+776,2026-08-15 11:35:00,DB-SERVER-01,Database Server,Network,INFO,192.168.1.77,Packet loss detected
+777,2026-02-02 23:11:00,APP-SERVER-02,Linux Server,System,INFO,192.168.6.155,System configuration changed
+778,2026-06-01 22:20:00,DB-SERVER-02,Database Server,Application,ERROR,192.168.6.12,Application started successfully
+779,2026-01-09 14:18:00,WEB-SERVER-01,Windows Server,System,ERROR,192.168.10.106,System service restarted
+780,2026-08-18 00:28:00,DB-SERVER-01,Database Server,Authentication,INFO,192.168.5.94,User account locked
+781,2026-01-17 00:06:00,ROUTER-01,Network Device,CPU Monitoring,ERROR,192.168.4.231,CPU utilization exceeded threshold
+782,2026-01-07 13:32:00,APP-SERVER-02,Linux Server,CPU Monitoring,WARNING,192.168.6.14,CPU utilization normal
+783,2026-03-06 09:37:00,WEB-SERVER-02,Windows Server,System,ERROR,192.168.6.60,System service restarted
+784,2026-04-12 04:35:00,DB-SERVER-02,Database Server,Authentication,ERROR,192.168.2.138,User account locked
+785,2026-05-22 23:31:00,WEB-SERVER-02,Windows Server,Memory Monitoring,ERROR,192.168.4.78,High memory utilization detected
+786,2026-04-23 07:27:00,SWITCH-01,Network Device,Authentication,INFO,192.168.3.20,Successful user login
+787,2026-04-05 14:20:00,WEB-SERVER-02,Windows Server,Network,INFO,192.168.5.133,Network connectivity restored
+788,2026-08-05 16:40:00,DB-SERVER-01,Database Server,Application,INFO,192.168.4.21,Application error occurred
+789,2026-05-31 10:01:00,WEB-SERVER-02,Windows Server,System,ERROR,192.168.2.65,System service restarted
+790,2026-01-20 05:56:00,DB-SERVER-02,Database Server,Application,WARNING,192.168.5.192,Database connection timeout
+791,2026-06-29 23:36:00,ROUTER-01,Network Device,Application,INFO,192.168.10.130,Application error occurred
+792,2026-04-15 21:15:00,APP-SERVER-01,Linux Server,System,INFO,192.168.4.42,System configuration changed
+793,2026-06-18 13:52:00,APP-SERVER-02,Linux Server,CPU Monitoring,INFO,192.168.1.18,CPU utilization exceeded threshold
+794,2026-01-03 17:48:00,WEB-SERVER-02,Windows Server,System,INFO,192.168.9.32,System service restarted
+795,2026-06-26 11:53:00,APP-SERVER-01,Linux Server,System,INFO,192.168.8.132,System configuration changed
+796,2026-07-22 06:28:00,WEB-SERVER-01,Windows Server,Authentication,INFO,192.168.8.110,Successful user login
+797,2026-03-31 17:14:00,SWITCH-01,Network Device,System,WARNING,192.168.5.243,System service restarted
+798,2026-05-19 20:37:00,APP-SERVER-01,Linux Server,Authentication,INFO,192.168.3.68,User account locked
+799,2026-01-05 18:43:00,WEB-SERVER-02,Windows Server,Memory Monitoring,INFO,192.168.5.83,Memory utilization exceeded threshold
+800,2026-02-17 17:24:00,SWITCH-01,Network Device,Network,INFO,192.168.8.147,Packet loss detected
+801,2026-04-14 17:26:00,DB-SERVER-01,Database Server,Authentication,INFO,192.168.6.55,Successful user login
+802,2026-08-23 19:36:00,DB-SERVER-01,Database Server,Application,WARNING,192.168.4.42,Application started successfully
+803,2026-04-27 04:39:00,DB-SERVER-02,Database Server,Application,WARNING,192.168.5.156,Application started successfully
+804,2026-03-14 23:19:00,APP-SERVER-02,Linux Server,System,ERROR,192.168.1.145,System service restarted
+805,2026-08-20 04:19:00,WEB-SERVER-02,Windows Server,CPU Monitoring,INFO,192.168.3.130,CPU utilization exceeded threshold
+806,2026-02-27 09:40:00,ROUTER-01,Network Device,Network,INFO,192.168.10.125,Packet loss detected
+807,2026-03-13 16:51:00,ROUTER-01,Network Device,Memory Monitoring,WARNING,192.168.10.209,High memory utilization detected
+808,2026-02-15 23:24:00,DB-SERVER-01,Database Server,System,INFO,192.168.7.20,System service restarted
+809,2026-07-13 03:26:00,DB-SERVER-02,Database Server,Network,INFO,192.168.7.6,Network connectivity restored
+810,2026-03-09 16:47:00,ROUTER-01,Network Device,Memory Monitoring,INFO,192.168.8.242,High memory utilization detected
+811,2026-04-13 15:27:00,DB-SERVER-01,Database Server,Authentication,WARNING,192.168.10.126,Password authentication failed
+812,2026-01-17 07:05:00,ROUTER-01,Network Device,CPU Monitoring,INFO,192.168.6.5,CPU utilization exceeded threshold
+813,2026-01-05 11:05:00,WEB-SERVER-01,Windows Server,CPU Monitoring,INFO,192.168.5.27,High CPU utilization detected
+814,2026-05-04 06:43:00,ROUTER-01,Network Device,CPU Monitoring,WARNING,192.168.9.77,CPU utilization normal
+815,2026-02-14 15:33:00,APP-SERVER-01,Linux Server,Authentication,INFO,192.168.3.78,Password authentication failed
+816,2026-07-10 20:15:00,DB-SERVER-02,Database Server,System,INFO,192.168.10.140,Disk space running low
+817,2026-02-10 04:21:00,DB-SERVER-01,Database Server,Authentication,INFO,192.168.7.66,Successful user login
+818,2026-01-07 03:21:00,DB-SERVER-02,Database Server,CPU Monitoring,INFO,192.168.2.2,CPU utilization normal
+819,2026-08-15 13:28:00,APP-SERVER-02,Linux Server,CPU Monitoring,WARNING,192.168.3.16,High CPU utilization detected
+820,2026-04-12 02:46:00,DB-SERVER-02,Database Server,Application,WARNING,192.168.5.158,Application started successfully
+821,2026-08-18 06:23:00,ROUTER-01,Network Device,System,INFO,192.168.3.9,System service restarted
+822,2026-07-15 13:12:00,DB-SERVER-01,Database Server,Application,WARNING,192.168.8.148,Database connection timeout
+823,2026-04-28 06:07:00,APP-SERVER-02,Linux Server,CPU Monitoring,WARNING,192.168.1.134,CPU utilization normal
+824,2026-04-28 12:12:00,APP-SERVER-02,Linux Server,CPU Monitoring,ERROR,192.168.8.100,CPU utilization exceeded threshold
+825,2026-02-13 16:36:00,WEB-SERVER-02,Windows Server,CPU Monitoring,WARNING,192.168.1.167,High CPU utilization detected
+826,2026-08-13 06:07:00,APP-SERVER-02,Linux Server,Memory Monitoring,INFO,192.168.8.86,Memory utilization normal
+827,2026-02-15 16:49:00,DB-SERVER-02,Database Server,System,WARNING,192.168.5.76,System startup completed
+828,2026-05-15 02:04:00,WEB-SERVER-01,Windows Server,Application,INFO,192.168.4.33,Application error occurred
+829,2026-05-28 10:03:00,DB-SERVER-02,Database Server,Memory Monitoring,ERROR,192.168.9.222,Memory utilization normal
+830,2026-02-09 06:57:00,ROUTER-01,Network Device,Network,WARNING,192.168.10.232,Packet loss detected
+831,2026-08-05 11:31:00,SWITCH-01,Network Device,Application,INFO,192.168.6.226,Application error occurred
+832,2026-02-22 01:18:00,SWITCH-01,Network Device,Memory Monitoring,WARNING,192.168.1.23,Memory utilization exceeded threshold
+833,2026-08-05 23:48:00,APP-SERVER-01,Linux Server,Authentication,INFO,192.168.10.84,Failed login attempt
+834,2026-05-02 00:06:00,APP-SERVER-01,Linux Server,Application,WARNING,192.168.5.124,Service response time exceeded threshold
+835,2026-02-06 14:20:00,ROUTER-01,Network Device,Authentication,WARNING,192.168.10.186,User account locked
+836,2026-02-22 14:41:00,DB-SERVER-02,Database Server,CPU Monitoring,WARNING,192.168.8.32,CPU utilization exceeded threshold
+837,2026-05-26 23:54:00,WEB-SERVER-01,Windows Server,System,INFO,192.168.6.16,System configuration changed
+838,2026-07-22 08:07:00,WEB-SERVER-02,Windows Server,Authentication,INFO,192.168.1.127,Successful user login
+839,2026-06-07 18:28:00,APP-SERVER-02,Linux Server,CPU Monitoring,ERROR,192.168.4.102,High CPU utilization detected
+840,2026-04-17 10:36:00,SWITCH-01,Network Device,Application,WARNING,192.168.4.205,Application error occurred
+841,2026-03-17 11:48:00,APP-SERVER-01,Linux Server,System,INFO,192.168.9.7,Disk space running low
+842,2026-02-13 12:47:00,APP-SERVER-01,Linux Server,Application,INFO,192.168.2.165,Service response time exceeded threshold
+843,2026-01-08 15:42:00,SWITCH-01,Network Device,Memory Monitoring,WARNING,192.168.8.85,Memory utilization normal
+844,2026-08-01 05:09:00,APP-SERVER-02,Linux Server,Authentication,INFO,192.168.10.92,Password authentication failed
+845,2026-07-08 09:12:00,DB-SERVER-02,Database Server,Network,WARNING,192.168.3.212,Network connectivity restored
+846,2026-08-09 18:05:00,ROUTER-01,Network Device,System,CRITICAL,192.168.10.120,System service restarted
+847,2026-07-17 08:46:00,WEB-SERVER-01,Windows Server,Application,INFO,192.168.10.40,Application started successfully
+848,2026-07-07 01:56:00,ROUTER-01,Network Device,Authentication,INFO,192.168.3.77,Failed login attempt
+849,2026-05-08 03:33:00,DB-SERVER-01,Database Server,Network,ERROR,192.168.2.139,Packet loss detected
+850,2026-08-03 15:17:00,WEB-SERVER-02,Windows Server,Memory Monitoring,WARNING,192.168.2.99,Memory utilization normal
+851,2026-02-21 16:13:00,WEB-SERVER-02,Windows Server,Memory Monitoring,INFO,192.168.3.252,Memory utilization exceeded threshold
+852,2026-01-22 14:17:00,DB-SERVER-02,Database Server,Authentication,ERROR,192.168.9.122,User account locked
+853,2026-01-29 05:57:00,SWITCH-01,Network Device,Application,WARNING,192.168.6.220,Database connection timeout
+854,2026-06-17 11:41:00,ROUTER-01,Network Device,Memory Monitoring,INFO,192.168.10.245,Memory utilization exceeded threshold
+855,2026-01-11 01:13:00,APP-SERVER-01,Linux Server,Memory Monitoring,INFO,192.168.1.31,High memory utilization detected
+856,2026-05-13 06:22:00,WEB-SERVER-01,Windows Server,Application,INFO,192.168.4.174,Application started successfully
+857,2026-02-13 03:28:00,APP-SERVER-02,Linux Server,System,INFO,192.168.3.117,System startup completed
+858,2026-06-09 17:22:00,WEB-SERVER-02,Windows Server,CPU Monitoring,WARNING,192.168.6.117,CPU utilization exceeded threshold
+859,2026-03-05 09:46:00,WEB-SERVER-02,Windows Server,Network,INFO,192.168.3.158,Packet loss detected
+860,2026-02-08 06:24:00,DB-SERVER-02,Database Server,Authentication,INFO,192.168.4.150,Successful user login
+861,2026-07-25 02:15:00,DB-SERVER-01,Database Server,Network,INFO,192.168.9.14,Network interface is down
+862,2026-05-31 19:02:00,APP-SERVER-02,Linux Server,CPU Monitoring,INFO,192.168.4.212,CPU utilization normal
+863,2026-05-17 00:51:00,WEB-SERVER-01,Windows Server,CPU Monitoring,INFO,192.168.2.229,CPU utilization normal
+864,2026-02-02 18:13:00,APP-SERVER-01,Linux Server,Authentication,INFO,192.168.3.149,Successful user login
+865,2026-08-14 05:05:00,SWITCH-01,Network Device,Memory Monitoring,ERROR,192.168.8.238,Memory utilization normal
+866,2026-08-10 09:07:00,DB-SERVER-02,Database Server,System,WARNING,192.168.10.147,System service restarted
+867,2026-06-30 14:35:00,DB-SERVER-01,Database Server,Authentication,WARNING,192.168.1.190,User account locked
+868,2026-01-13 03:45:00,APP-SERVER-01,Linux Server,Application,INFO,192.168.1.216,Database connection timeout
+869,2026-01-03 06:36:00,WEB-SERVER-01,Windows Server,System,INFO,192.168.9.222,Disk space running low
+870,2026-07-27 08:49:00,APP-SERVER-01,Linux Server,System,WARNING,192.168.1.135,Disk space running low
+871,2026-02-07 10:11:00,DB-SERVER-01,Database Server,Memory Monitoring,WARNING,192.168.5.82,Memory utilization exceeded threshold
+872,2026-05-31 10:26:00,APP-SERVER-02,Linux Server,Authentication,INFO,192.168.6.240,Successful user login
+873,2026-05-09 06:28:00,APP-SERVER-02,Linux Server,Memory Monitoring,INFO,192.168.8.13,High memory utilization detected
+874,2026-06-06 04:44:00,WEB-SERVER-02,Windows Server,Application,INFO,192.168.1.1,Application error occurred
+875,2026-04-23 06:27:00,DB-SERVER-01,Database Server,System,WARNING,192.168.2.193,System startup completed
+876,2026-08-05 12:06:00,DB-SERVER-02,Database Server,CPU Monitoring,WARNING,192.168.2.167,High CPU utilization detected
+877,2026-01-11 04:10:00,APP-SERVER-01,Linux Server,CPU Monitoring,ERROR,192.168.5.82,CPU utilization exceeded threshold
+878,2026-06-07 11:12:00,DB-SERVER-01,Database Server,CPU Monitoring,WARNING,192.168.4.181,CPU utilization normal
+879,2026-03-04 09:51:00,SWITCH-01,Network Device,Network,INFO,192.168.1.138,Network interface is down
+880,2026-03-20 05:23:00,WEB-SERVER-02,Windows Server,Network,WARNING,192.168.10.26,Network connection established
+881,2026-08-14 04:46:00,WEB-SERVER-02,Windows Server,Network,WARNING,192.168.6.237,Network connection established
+882,2026-01-07 16:59:00,ROUTER-01,Network Device,CPU Monitoring,INFO,192.168.6.231,CPU utilization exceeded threshold
+883,2026-01-01 18:36:00,DB-SERVER-01,Database Server,CPU Monitoring,ERROR,192.168.6.1,High CPU utilization detected
+884,2026-05-04 09:19:00,WEB-SERVER-02,Windows Server,System,INFO,192.168.6.241,System service restarted
+885,2026-07-23 07:35:00,ROUTER-01,Network Device,Authentication,INFO,192.168.1.227,User account locked
+886,2026-03-29 05:43:00,ROUTER-01,Network Device,Authentication,INFO,192.168.1.37,Successful user login
+887,2026-06-06 20:34:00,ROUTER-01,Network Device,System,INFO,192.168.3.14,Disk space running low
+888,2026-06-22 21:39:00,APP-SERVER-02,Linux Server,Authentication,INFO,192.168.1.191,Failed login attempt
+889,2026-08-02 09:13:00,WEB-SERVER-01,Windows Server,System,CRITICAL,192.168.10.203,System service restarted
+890,2026-03-10 05:19:00,ROUTER-01,Network Device,Memory Monitoring,INFO,192.168.3.12,Memory utilization exceeded threshold
+891,2026-06-01 15:56:00,APP-SERVER-01,Linux Server,System,INFO,192.168.6.152,System configuration changed
+892,2026-07-15 20:20:00,APP-SERVER-01,Linux Server,Authentication,WARNING,192.168.6.15,Password authentication failed
+893,2026-08-11 18:12:00,WEB-SERVER-01,Windows Server,Memory Monitoring,INFO,192.168.4.38,Memory utilization normal
+894,2026-08-08 22:43:00,WEB-SERVER-02,Windows Server,Network,INFO,192.168.3.8,Network interface is down
+895,2026-03-06 04:41:00,ROUTER-01,Network Device,System,INFO,192.168.3.251,Disk space running low
+896,2026-01-18 17:04:00,APP-SERVER-01,Linux Server,System,ERROR,192.168.8.47,System configuration changed
+897,2026-04-25 15:46:00,ROUTER-01,Network Device,Authentication,INFO,192.168.8.249,Password authentication failed
+898,2026-04-28 01:41:00,APP-SERVER-02,Linux Server,CPU Monitoring,ERROR,192.168.7.191,CPU utilization exceeded threshold
+899,2026-06-07 10:20:00,WEB-SERVER-01,Windows Server,Application,WARNING,192.168.10.99,Database connection timeout
+900,2026-01-15 18:10:00,DB-SERVER-01,Database Server,System,INFO,192.168.2.181,Disk space running low
+901,2026-07-02 10:11:00,DB-SERVER-02,Database Server,Memory Monitoring,INFO,192.168.3.124,Memory utilization exceeded threshold
+902,2026-05-10 21:39:00,DB-SERVER-02,Database Server,Application,INFO,192.168.8.88,Database connection timeout
+903,2026-05-15 14:17:00,DB-SERVER-02,Database Server,CPU Monitoring,INFO,192.168.3.73,High CPU utilization detected
+904,2026-03-26 16:24:00,APP-SERVER-01,Linux Server,Network,INFO,192.168.3.192,Network interface is down
+905,2026-03-25 15:23:00,WEB-SERVER-02,Windows Server,CPU Monitoring,ERROR,192.168.9.48,CPU utilization normal
+906,2026-06-05 18:04:00,ROUTER-01,Network Device,CPU Monitoring,INFO,192.168.8.90,CPU utilization normal
+907,2026-04-15 22:16:00,SWITCH-01,Network Device,System,WARNING,192.168.10.182,System configuration changed
+908,2026-04-05 04:41:00,SWITCH-01,Network Device,Application,WARNING,192.168.2.154,Application started successfully
+909,2026-06-14 08:10:00,WEB-SERVER-02,Windows Server,Application,INFO,192.168.3.213,Application started successfully
+910,2026-07-09 04:50:00,ROUTER-01,Network Device,Application,INFO,192.168.2.123,Application error occurred
+911,2026-07-28 16:00:00,WEB-SERVER-02,Windows Server,Network,INFO,192.168.2.214,Network interface is down
+912,2026-03-16 21:38:00,DB-SERVER-02,Database Server,CPU Monitoring,INFO,192.168.5.87,CPU utilization exceeded threshold
+913,2026-08-26 21:47:00,WEB-SERVER-01,Windows Server,Network,ERROR,192.168.9.106,Network connectivity restored
+914,2026-03-23 06:10:00,DB-SERVER-01,Database Server,Memory Monitoring,INFO,192.168.4.37,Memory utilization normal
+915,2026-01-31 13:40:00,WEB-SERVER-01,Windows Server,Memory Monitoring,INFO,192.168.6.197,High memory utilization detected
+916,2026-08-18 16:54:00,ROUTER-01,Network Device,System,INFO,192.168.8.11,Disk space running low
+917,2026-04-26 11:08:00,APP-SERVER-01,Linux Server,System,CRITICAL,192.168.6.12,System startup completed
+918,2026-05-21 00:13:00,SWITCH-01,Network Device,CPU Monitoring,INFO,192.168.3.42,CPU utilization exceeded threshold
+919,2026-06-21 17:41:00,APP-SERVER-01,Linux Server,Authentication,WARNING,192.168.6.206,Failed login attempt
+920,2026-06-09 00:06:00,DB-SERVER-01,Database Server,Application,WARNING,192.168.5.17,Application error occurred
+921,2026-06-08 16:42:00,APP-SERVER-01,Linux Server,Application,INFO,192.168.5.218,Application error occurred
+922,2026-02-08 02:16:00,ROUTER-01,Network Device,Application,INFO,192.168.10.196,Service response time exceeded threshold
+923,2026-01-20 03:08:00,DB-SERVER-02,Database Server,Network,INFO,192.168.6.249,Network connectivity restored
+924,2026-08-06 04:02:00,ROUTER-01,Network Device,Memory Monitoring,INFO,192.168.10.210,Memory utilization normal
+925,2026-02-04 00:00:00,ROUTER-01,Network Device,Network,ERROR,192.168.4.68,Packet loss detected
+926,2026-02-04 03:33:00,WEB-SERVER-01,Windows Server,Network,WARNING,192.168.1.28,Network connectivity restored
+927,2026-02-16 12:49:00,WEB-SERVER-01,Windows Server,Network,ERROR,192.168.6.112,Packet loss detected
+928,2026-08-21 06:24:00,WEB-SERVER-01,Windows Server,Application,INFO,192.168.10.11,Application started successfully
+929,2026-08-22 14:33:00,WEB-SERVER-02,Windows Server,Memory Monitoring,INFO,192.168.5.114,Memory utilization exceeded threshold
+930,2026-07-04 16:31:00,ROUTER-01,Network Device,Application,INFO,192.168.1.24,Service response time exceeded threshold
+931,2026-05-05 20:51:00,SWITCH-01,Network Device,Network,INFO,192.168.2.6,Packet loss detected
+932,2026-05-28 11:47:00,SWITCH-01,Network Device,Authentication,INFO,192.168.7.252,Failed login attempt
+933,2026-07-24 01:13:00,APP-SERVER-02,Linux Server,System,WARNING,192.168.5.135,Disk space running low
+934,2026-05-12 18:31:00,APP-SERVER-01,Linux Server,Authentication,WARNING,192.168.3.242,Failed login attempt
+935,2026-04-14 13:40:00,APP-SERVER-02,Linux Server,Memory Monitoring,INFO,192.168.6.238,Memory utilization normal
+936,2026-01-16 16:55:00,DB-SERVER-01,Database Server,Application,INFO,192.168.2.207,Service response time exceeded threshold
+937,2026-03-19 04:08:00,SWITCH-01,Network Device,Network,ERROR,192.168.10.30,Network connection established
+938,2026-07-11 04:39:00,APP-SERVER-02,Linux Server,CPU Monitoring,WARNING,192.168.3.136,CPU utilization exceeded threshold
+939,2026-03-07 10:54:00,WEB-SERVER-01,Windows Server,Network,INFO,192.168.7.121,Network connectivity restored
+940,2026-04-05 07:34:00,APP-SERVER-01,Linux Server,Authentication,INFO,192.168.4.12,User account locked
+941,2026-05-13 13:12:00,APP-SERVER-01,Linux Server,Authentication,INFO,192.168.3.55,User account locked
+942,2026-01-27 01:52:00,DB-SERVER-02,Database Server,Authentication,INFO,192.168.7.222,Password authentication failed
+943,2026-01-12 03:46:00,DB-SERVER-02,Database Server,Memory Monitoring,INFO,192.168.7.108,Memory utilization normal
+944,2026-07-25 07:26:00,SWITCH-01,Network Device,CPU Monitoring,INFO,192.168.2.133,CPU utilization exceeded threshold
+945,2026-05-21 10:48:00,APP-SERVER-01,Linux Server,System,INFO,192.168.8.92,System service restarted
+946,2026-05-08 06:06:00,SWITCH-01,Network Device,Application,ERROR,192.168.10.135,Service response time exceeded threshold
+947,2026-03-19 11:40:00,WEB-SERVER-02,Windows Server,Application,INFO,192.168.8.59,Application error occurred
+948,2026-03-18 14:04:00,ROUTER-01,Network Device,Memory Monitoring,INFO,192.168.10.55,Memory utilization normal
+949,2026-01-26 22:49:00,APP-SERVER-02,Linux Server,Network,WARNING,192.168.9.45,Network connection established
+950,2026-08-11 16:29:00,APP-SERVER-02,Linux Server,Network,INFO,192.168.9.192,Network interface is down
+951,2026-08-01 02:39:00,WEB-SERVER-02,Windows Server,Authentication,WARNING,192.168.2.159,Password authentication failed
+952,2026-05-13 04:08:00,WEB-SERVER-02,Windows Server,System,INFO,192.168.4.199,System startup completed
+953,2026-05-07 01:38:00,APP-SERVER-01,Linux Server,CPU Monitoring,ERROR,192.168.7.63,CPU utilization exceeded threshold
+954,2026-05-08 08:36:00,SWITCH-01,Network Device,Application,INFO,192.168.3.69,Application started successfully
+955,2026-01-25 09:58:00,APP-SERVER-01,Linux Server,Application,WARNING,192.168.5.23,Application error occurred
+956,2026-03-14 07:47:00,SWITCH-01,Network Device,Network,INFO,192.168.2.73,Network connection established
+957,2026-04-01 07:40:00,DB-SERVER-01,Database Server,Authentication,INFO,192.168.5.36,User account locked
+958,2026-04-10 16:01:00,DB-SERVER-01,Database Server,Application,INFO,192.168.1.147,Database connection timeout
+959,2026-04-21 17:46:00,WEB-SERVER-02,Windows Server,Network,INFO,192.168.5.108,Network connectivity restored
+960,2026-02-23 09:04:00,SWITCH-01,Network Device,System,ERROR,192.168.1.9,Disk space running low
+961,2026-08-28 05:57:00,APP-SERVER-02,Linux Server,Application,ERROR,192.168.6.242,Application error occurred
+962,2026-06-04 08:15:00,WEB-SERVER-01,Windows Server,CPU Monitoring,ERROR,192.168.6.181,CPU utilization exceeded threshold
+963,2026-06-12 08:55:00,SWITCH-01,Network Device,CPU Monitoring,WARNING,192.168.5.123,CPU utilization exceeded threshold
+964,2026-03-25 00:44:00,ROUTER-01,Network Device,Memory Monitoring,WARNING,192.168.7.21,High memory utilization detected
+965,2026-02-23 17:59:00,SWITCH-01,Network Device,Memory Monitoring,INFO,192.168.5.26,High memory utilization detected
+966,2026-03-07 18:30:00,APP-SERVER-01,Linux Server,System,INFO,192.168.1.119,System startup completed
+967,2026-03-23 17:24:00,DB-SERVER-01,Database Server,Network,INFO,192.168.4.27,Packet loss detected
+968,2026-04-01 00:30:00,WEB-SERVER-02,Windows Server,Memory Monitoring,INFO,192.168.9.131,Memory utilization exceeded threshold
+969,2026-07-04 23:24:00,APP-SERVER-01,Linux Server,Authentication,INFO,192.168.5.111,User account locked
+970,2026-05-13 02:36:00,WEB-SERVER-02,Windows Server,Authentication,WARNING,192.168.9.230,User account locked
+971,2026-04-01 11:57:00,SWITCH-01,Network Device,Memory Monitoring,INFO,192.168.3.144,Memory utilization normal
+972,2026-03-03 21:08:00,WEB-SERVER-02,Windows Server,Authentication,ERROR,192.168.10.18,Failed login attempt
+973,2026-05-05 16:24:00,APP-SERVER-02,Linux Server,Memory Monitoring,WARNING,192.168.3.63,Memory utilization exceeded threshold
+974,2026-01-13 21:54:00,WEB-SERVER-01,Windows Server,Application,ERROR,192.168.1.93,Application error occurred
+975,2026-03-10 12:40:00,DB-SERVER-01,Database Server,Memory Monitoring,INFO,192.168.3.57,High memory utilization detected
+976,2026-04-07 12:57:00,WEB-SERVER-02,Windows Server,CPU Monitoring,WARNING,192.168.2.166,CPU utilization normal
+977,2026-04-04 22:52:00,APP-SERVER-02,Linux Server,Network,INFO,192.168.4.214,Network interface is down
+978,2026-04-24 02:02:00,ROUTER-01,Network Device,System,WARNING,192.168.5.235,System startup completed
+979,2026-04-15 09:31:00,APP-SERVER-02,Linux Server,Application,ERROR,192.168.5.50,Application error occurred
+980,2026-04-09 08:09:00,APP-SERVER-01,Linux Server,System,INFO,192.168.9.204,System startup completed
+981,2026-07-02 11:15:00,WEB-SERVER-01,Windows Server,CPU Monitoring,WARNING,192.168.10.45,CPU utilization exceeded threshold
+982,2026-04-24 13:23:00,WEB-SERVER-01,Windows Server,Network,WARNING,192.168.10.157,Packet loss detected
+983,2026-04-27 13:44:00,DB-SERVER-01,Database Server,Application,INFO,192.168.2.63,Application started successfully
+984,2026-07-12 02:02:00,APP-SERVER-02,Linux Server,CPU Monitoring,INFO,192.168.4.133,CPU utilization exceeded threshold
+985,2026-03-21 06:05:00,WEB-SERVER-01,Windows Server,Application,INFO,192.168.1.26,Service response time exceeded threshold
+986,2026-08-21 07:31:00,DB-SERVER-02,Database Server,Memory Monitoring,INFO,192.168.4.84,Memory utilization normal
+987,2026-03-15 07:45:00,APP-SERVER-02,Linux Server,System,WARNING,192.168.4.32,Disk space running low
+988,2026-02-09 12:23:00,DB-SERVER-01,Database Server,Authentication,INFO,192.168.6.162,Password authentication failed
+989,2026-06-25 03:37:00,DB-SERVER-02,Database Server,System,INFO,192.168.5.47,System service restarted
+990,2026-03-19 08:02:00,SWITCH-01,Network Device,Network,INFO,192.168.2.55,Network connectivity restored
+991,2026-05-16 03:26:00,APP-SERVER-02,Linux Server,Network,INFO,192.168.4.167,Packet loss detected
+992,2026-01-09 17:59:00,SWITCH-01,Network Device,Authentication,INFO,192.168.6.252,Successful user login
+993,2026-06-29 23:36:00,ROUTER-01,Network Device,System,WARNING,192.168.6.63,System configuration changed
+994,2026-03-22 10:32:00,DB-SERVER-01,Database Server,Application,INFO,192.168.4.194,Application started successfully
+995,2026-01-10 09:55:00,APP-SERVER-02,Linux Server,CPU Monitoring,INFO,192.168.7.110,CPU utilization normal
+996,2026-01-26 08:53:00,SWITCH-01,Network Device,CPU Monitoring,INFO,192.168.3.43,High CPU utilization detected
+997,2026-03-23 12:57:00,APP-SERVER-02,Linux Server,Application,INFO,192.168.8.182,Application started successfully
+998,2026-05-22 15:17:00,DB-SERVER-01,Database Server,System,INFO,192.168.7.18,System configuration changed
+999,2026-03-31 12:55:00,SWITCH-01,Network Device,Authentication,INFO,192.168.1.104,Successful user login
+1000,2026-07-08 07:07:00,APP-SERVER-02,Linux Server,Application,INFO,192.168.8.133,Database connection timeout
