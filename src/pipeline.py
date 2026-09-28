@@ -83,5 +83,30 @@ logger.info("Step 3 completed successfully.")
 print("Step 3 completed successfully.")
 
 
+
+# Step 4: Data Quality Monitoring
+logger.info("Step 4: Running data quality monitoring...")
+print("\nStep 4: Running data quality monitoring...")
+
+quality_result = subprocess.run(
+    [sys.executable, "src/data_quality.py"],
+    capture_output=True,
+    text=True
+)
+
+print(quality_result.stdout)
+
+if quality_result.returncode != 0:
+    logger.error("Data quality monitoring failed.")
+    logger.error(quality_result.stderr)
+    print("Pipeline stopped: Data quality monitoring failed.")
+    exit(1)
+
+logger.info("Step 4 completed successfully.")
+print("Step 4 completed successfully.")
+
+
 logger.info("Infrastructure Log Monitoring Pipeline Completed Successfully.")
 print("\nInfrastructure Log Monitoring Pipeline Completed Successfully.")
+
+
