@@ -83,8 +83,8 @@ else:
     validation_passed = False
 
 
-# Overall validation result
 if validation_passed:
     print("Validation PASSED.")
 else:
     print("Validation FAILED.")
+    raise SystemExit(1)
