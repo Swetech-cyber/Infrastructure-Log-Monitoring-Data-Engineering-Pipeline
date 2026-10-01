@@ -1,6 +1,6 @@
 import os
 import pandas as pd
-from sqlalchemy import create_engine
+from sqlalchemy import create_engine, text
 from sqlalchemy.engine import URL
 from dotenv import load_dotenv
 
@@ -14,7 +14,7 @@ DB_HOST = os.getenv("DB_HOST")
 DB_PORT = os.getenv("DB_PORT")
 DB_NAME = os.getenv("DB_NAME")
 
-# Create PostgreSQL connection safely
+# Create PostgreSQL connection
 DATABASE_URL = URL.create(
     drivername="postgresql+psycopg2",
     username=DB_USER,
@@ -31,7 +31,15 @@ df = pd.read_csv("data/raw/infrastructure_logs.csv")
 
 print(f"Loaded {len(df)} records from CSV.")
 
-# Load data into PostgreSQL
+# Clear previous raw data
+with engine.begin() as connection:
+    connection.execute(
+        text("TRUNCATE TABLE infrastructure_logs")
+    )
+
+print("Previous raw records cleared.")
+
+# Load fresh data into PostgreSQL
 df.to_sql(
     "infrastructure_logs",
     engine,
@@ -39,4 +47,4 @@ df.to_sql(
     index=False
 )
 
-print("Data successfully loaded into PostgreSQL.")
+print("Raw data successfully loaded into PostgreSQL.")
